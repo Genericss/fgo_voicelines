@@ -14,5 +14,7 @@ All the generated files are placed in the generated_data folder.
 
 From this, graphviz images can be generated (in archive/images) or gephi used, along with the sigmaJS plugin to generate a version visable online
 
-The online version is viewable from the network folder, hosted on the following link:
-	https://genericss.github.io/fgo_voicelines/network/
+The online version is viewable from the network folder, hosted on the following links:
+	https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_voicelines
+	https://genericss.github.io/fgo_voicelines/interactive_graphs/all_voices
+
