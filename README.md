@@ -18,3 +18,15 @@ The online version is viewable from the network folder, hosted on the following 
 	https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_voicelines
 	https://genericss.github.io/fgo_voicelines/interactive_graphs/all_voices
 
+Gephi project files will also be provided somewhere
+
+
+
+Installations:
+	The majority of this was done on Linux, so I have:
+		A lot of shell scripts to run the various programs I have
+		gcc compiled the c executable
+		awk parses the csv
+		Graphviz is installed, although this can be phased out since it's only used to pass to Gephi
+		Gephi is installed on Windows, although this will likely be changed.
+	
