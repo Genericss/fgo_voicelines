@@ -29,4 +29,7 @@ Installations:
 		awk parses the csv
 		Graphviz is installed, although this can be phased out since it's only used to pass to Gephi
 		Gephi is installed on Windows, although this will likely be changed.
-	
+		EDIT: 
+			I downloaded the gephi-toolkit for java, which is hanging out in the downloaded_libraries directory
+			I also had to download the java development kit for linux (version 11). 
+
