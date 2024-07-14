@@ -15,19 +15,14 @@ import org.gephi.project.api.Workspace;
 
 import org.gephi.graph.api.GraphController;
 import org.gephi.graph.api.GraphModel;
+import org.gephi.graph.api.DirectedGraph;
 
-import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2
-import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2.ForceAtlas2Builder
-
-
-
+import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2;
+import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2Builder;
 
 import org.openide.util.Lookup;
 
 import org.gephi.io.processor.plugin.DefaultProcessor;
-
-
-
 
 import java.io.File;
 import java.io.IOException;
@@ -59,29 +54,31 @@ public class interactGephi{
 		importController.process(container, new DefaultProcessor(), workspace);
 		
 		//Once we are done importing, we mess with the graph properties a bit. 
-		GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getModel()
+		GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
 		ForceAtlas2 layout = new ForceAtlas2(new ForceAtlas2Builder()); 
 		layout.setGraphModel(graphModel);
 		layout.setLinLogMode(true);
+
+
 		layout.initAlgo();
 
-		for(int i = 0; i < 10000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
 
 		
 
 
-
-
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
 		try {
-			ec.exportFile(new File("output.pdf"));
+			ec.exportFile(new File("output.svg"));
 		} catch (IOException ex){
 			ex.printStackTrace();
 			return;
 		}
+
+		System.out.println("Generated output");
 
 //		Exporter exporterGraphML = ec.getExporter("graphml");
 //		exporterGraphML.setWorkspace(workspace);
@@ -91,13 +88,13 @@ public class interactGephi{
 		
 			
 
-		PDFExporter pdfExporter = (PDFExporter) ec.getExporter("pdf");
-		pdfExporter.setPageSize(PDRectangle.A0);
-		pdfExporter.setWorkspace(workspace);
-
-		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		ec.exportStream(baos, pdfExporter);
-		byte[] pdf = baos.toByteArray();
+//		PDFExporter pdfExporter = (PDFExporter) ec.getExporter("pdf");
+//		pdfExporter.setPageSize(PDRectangle.A0);
+//		pdfExporter.setWorkspace(workspace);
+//
+//		ByteArrayOutputStream baos = new ByteArrayOutputStream();
+//		ec.exportStream(baos, pdfExporter);
+//		byte[] pdf = baos.toByteArray();
 
 
 	}
