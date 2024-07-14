@@ -17,6 +17,7 @@ From this, graphviz images can be generated (in archive/images) or gephi used, a
 The online version is viewable from the network folder, hosted on the following links:
 	https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_voicelines
 	https://genericss.github.io/fgo_voicelines/interactive_graphs/all_voices
+	https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_proportional_modularity
 
 Gephi project files will also be provided somewhere
 
