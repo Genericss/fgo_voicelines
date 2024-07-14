@@ -1,5 +1,3 @@
-import org.apache.pdfbox.pdmodel.common.PDRectangle;
-
 import org.gephi.io.importer.api.ImportController;
 import org.gephi.io.importer.api.Container;
 import org.gephi.io.importer.api.EdgeDirectionDefault;
@@ -27,7 +25,7 @@ import org.gephi.io.processor.plugin.DefaultProcessor;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
-import java.io.ByteArrayOutputStream;
+//import java.io.ByteArrayOutputStream;
 
 
 //A lot of this code is taken from the gephi-toolkit-demos on their github
@@ -56,15 +54,15 @@ public class interactGephi{
 		//Once we are done importing, we mess with the graph properties a bit. 
 		GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
 		ForceAtlas2 layout = new ForceAtlas2(new ForceAtlas2Builder()); 
-		layout.setGraphModel(graphModel);
-		layout.setLinLogMode(true);
-
-
-		layout.initAlgo();
-
-		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
-			layout.goAlgo();
-		}
+//		layout.setGraphModel(graphModel);
+//		layout.setLinLogMode(true);
+//
+//
+//		layout.initAlgo();
+//
+//		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
+//			layout.goAlgo();
+//		}
 
 		
 
@@ -72,7 +70,8 @@ public class interactGephi{
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
 		try {
-			ec.exportFile(new File("output.svg"));
+			ec.exportFile(new File("output.png"));
+			System.out.println("Ignored export");
 		} catch (IOException ex){
 			ex.printStackTrace();
 			return;
@@ -80,11 +79,11 @@ public class interactGephi{
 
 		System.out.println("Generated output");
 
-//		Exporter exporterGraphML = ec.getExporter("graphml");
-//		exporterGraphML.setWorkspace(workspace);
-//		StringWriter stringWriter = new StringWriter();
-//		ec.exportWriter(stringWriter, (CharacterExporter) exporterGraphML);
-//
+		Exporter exporterGraphML = ec.getExporter("graphml");
+		exporterGraphML.setWorkspace(workspace);
+		StringWriter stringWriter = new StringWriter();
+		ec.exportWriter(stringWriter, (CharacterExporter) exporterGraphML);
+
 		
 			
 

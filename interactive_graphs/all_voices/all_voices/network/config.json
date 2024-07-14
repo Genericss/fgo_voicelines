@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "",
-    "intro": "This graph filters out any servant with no direct voicelines to or from and proportionally sizes the node with respect to the degree (number of connections). ",
+    "intro": "This is the second of two graphs I have made, this one visualizes all voices that a servant could potentially have.\nCertain voicelines are applied to groups of servants, this one includes those voicelines. ",
     "title": "Servant Voicelines"
   },
   "legend": {
@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "Modularity Class",
+    "groupSelectorAttribute": "servant_class",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
@@ -40,10 +40,10 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2,
-      "minEdgeSize": 2,
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 18
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
