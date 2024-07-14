@@ -21,6 +21,7 @@ The online version is viewable from the network folder, hosted on the following 
 Gephi project files will also be provided somewhere
 
 TODO: the python script to parse csv into dot file using graphviz can likely be phased out, since it doesn't actually render. It just writes out the dot source code and exits. Originally, it was going to do more interactions and pass it to other files, but changes had to be made (read: none of them were working)
+making an edit to force commit
 
 Installations:
 	The majority of this was done on Linux, so I have:
