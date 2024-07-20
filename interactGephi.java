@@ -14,10 +14,29 @@ import org.gephi.project.api.Workspace;
 import org.gephi.graph.api.GraphController;
 import org.gephi.graph.api.GraphModel;
 import org.gephi.graph.api.DirectedGraph;
+import org.gephi.graph.api.GraphView;
 
 import org.gephi.layout.plugin.AutoLayout;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2Builder;
+import org.gephi.layout.plugin.noverlap.NoverlapLayout;
+import org.gephi.layout.plugin.noverlap.NoverlapLayoutBuilder;
+
+import org.gephi.appearance.api.AppearanceController;
+import org.gephi.appearance.api.AppearanceModel;
+import org.gephi.appearance.api.Function;
+import org.gephi.appearance.plugin.RankingElementColorTransformer;
+import org.gephi.appearance.plugin.RankingNodeSizeTransformer;
+
+import org.gephi.filters.api.FilterController;
+import org.gephi.filters.api.Query;
+import org.gephi.filters.api.Range;
+import org.gephi.filters.plugin.graph.DegreeRangeBuilder.DegreeRangeFilter;
+
+import org.gephi.preview.api.PreviewController;
+import org.gephi.preview.api.PreviewModel;
+import org.gephi.preview.api.PreviewProperty;
+import org.gephi.preview.types.EdgeColor;
 
 import org.openide.util.Lookup;
 
@@ -30,6 +49,7 @@ import java.util.concurrent.TimeUnit;
 //import java.io.ByteArrayOutputStream;
 
 
+
 //A lot of this code is taken from the gephi-toolkit-demos on their github
 //Specifically, the importExport example
 public class interactGephi{
@@ -39,6 +59,12 @@ public class interactGephi{
 		Workspace workspace = pc.getCurrentWorkspace();
 
 		ImportController importController = Lookup.getDefault().lookup(ImportController.class);
+		FilterController filterController =  Lookup.getDefault().lookup(FilterController.class);
+		PreviewModel model = Lookup.getDefault().lookup(PreviewController.class).getModel();
+		AppearanceController appearanceController = Lookup.getDefault().lookup(AppearanceController.class);
+		AppearanceModel appearanceModel = appearanceController.getModel();
+		GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
+
 		Container container;
 		try{
 			File file = new File(interactGephi.class.getResource("./generated_data/servant_voices.gv").toURI());
@@ -54,41 +80,68 @@ public class interactGephi{
 		importController.process(container, new DefaultProcessor(), workspace);
 		
 		//Once we are done importing, we mess with the graph properties a bit. 
-		GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
-		ForceAtlas2 layout = new ForceAtlas2(new ForceAtlas2Builder()); 
+
 
 		DirectedGraph graph = graphModel.getDirectedGraph();
 		System.out.println("Nodes: " + graph.getNodeCount());
 		System.out.println("Edges: " + graph.getEdgeCount());
 
-//		AutoLayout autoLayout = new AutoLayout(10, TimeUnit.SECONDS);
-//		autoLayout.setGraphModel(graphModel);
-//
-//		layout.setGraphModel(graphModel);
-//		layout.resetPropertiesValues();
-//		layout.setLinLogMode(true);
-//
-//		autoLayout.addLayout(layout, 1f);
-//		autoLayout.execute();
+		//Filtering out those elements with zero degree
+		DegreeRangeFilter degreeFilter = new DegreeRangeFilter();
+		degreeFilter.init(graph);
+		degreeFilter.setRange(new Range(1, Integer.MAX_VALUE));
+		Query query = filterController.createQuery(degreeFilter);
+		GraphView view = filterController.filter(query);
+		graphModel.setVisibleView(view);
 
-
-
-
-
+		
+		//setting layout (initial forceatlas) set to what i shuffle on gephi
+		ForceAtlas2 layout = new ForceAtlas2(new ForceAtlas2Builder()); 
 		layout.setGraphModel(graphModel);
 		layout.resetPropertiesValues();
 		layout.setLinLogMode(true);
-
+		layout.setScalingRatio(Double.valueOf(0.7));
+		
 
 		layout.initAlgo();
 
-		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 5000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
-
 		
 		layout.endAlgo();
+		
+		//running a no overlap
+		NoverlapLayout noLayout = new NoverlapLayout(new NoverlapLayoutBuilder());
+		noLayout.setGraphModel(graphModel);
+		noLayout.resetPropertiesValues();
+		noLayout.initAlgo();
+		for(int i = 0; i < 5000 && noLayout.canAlgo(); i++){
+			noLayout.goAlgo();
+		}
+		noLayout.endAlgo();
 
+		
+		
+
+		//now, adding the other stuff
+
+		Function degreeRanking = appearanceModel.getNodeFunction(graphModel.defaultColumns().degree(), RankingNodeSizeTransformer.class);
+		RankingNodeSizeTransformer sizeTransformer = (RankingNodeSizeTransformer) degreeRanking.getTransformer();
+		sizeTransformer.setMinSize(10);
+		sizeTransformer.setMaxSize(50);
+		appearanceController.transform(degreeRanking);
+
+
+
+
+		//then, setting preview properties
+	//	model.getProperties().putValue(PreviewProperty)
+		model.getProperties().putValue(PreviewProperty.SHOW_NODE_LABELS, Boolean.TRUE);
+		model.getProperties().putValue(PreviewProperty.EDGE_THICKNESS, Float.valueOf(0.1f));
+		model.getProperties().putValue(PreviewProperty.EDGE_OPACITY, Float.valueOf(0.3f));
+		model.getProperties().putValue(PreviewProperty.NODE_LABEL_FONT, model.getProperties().getFontValue(PreviewProperty.NODE_LABEL_FONT).deriveFont(3f));
+		model.getProperties().putValue(PreviewProperty.NODE_LABEL_PROPORTIONAL_SIZE, Boolean.TRUE);
 
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
