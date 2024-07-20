@@ -11,6 +11,7 @@ import org.gephi.io.exporter.spi.GraphExporter;
 import org.gephi.project.api.ProjectController;
 import org.gephi.project.api.Workspace;
 
+import org.gephi.graph.api.Column;
 import org.gephi.graph.api.GraphController;
 import org.gephi.graph.api.GraphModel;
 import org.gephi.graph.api.DirectedGraph;
@@ -25,8 +26,13 @@ import org.gephi.layout.plugin.noverlap.NoverlapLayoutBuilder;
 import org.gephi.appearance.api.AppearanceController;
 import org.gephi.appearance.api.AppearanceModel;
 import org.gephi.appearance.api.Function;
+import org.gephi.appearance.api.Partition;
+import org.gephi.appearance.api.PartitionFunction;
 import org.gephi.appearance.plugin.RankingElementColorTransformer;
+import org.gephi.appearance.plugin.PartitionElementColorTransformer;
 import org.gephi.appearance.plugin.RankingNodeSizeTransformer;
+import org.gephi.appearance.plugin.palette.Palette;
+import org.gephi.appearance.plugin.palette.PaletteManager;
 
 import org.gephi.filters.api.FilterController;
 import org.gephi.filters.api.Query;
@@ -41,6 +47,8 @@ import org.gephi.preview.types.EdgeColor;
 import org.openide.util.Lookup;
 
 import org.gephi.io.processor.plugin.DefaultProcessor;
+
+import org.gephi.statistics.plugin.Modularity;
 
 import java.io.File;
 import java.io.IOException;
@@ -58,6 +66,8 @@ public class interactGephi{
 		pc.newProject();
 		Workspace workspace = pc.getCurrentWorkspace();
 
+		//various controllers that do god knows what. cobbled together desperately from the gephi-toolkit-demos page
+		
 		ImportController importController = Lookup.getDefault().lookup(ImportController.class);
 		FilterController filterController =  Lookup.getDefault().lookup(FilterController.class);
 		PreviewModel model = Lookup.getDefault().lookup(PreviewController.class).getModel();
@@ -105,7 +115,7 @@ public class interactGephi{
 
 		layout.initAlgo();
 
-		for(int i = 0; i < 5000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 2000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
 		
@@ -116,20 +126,30 @@ public class interactGephi{
 		noLayout.setGraphModel(graphModel);
 		noLayout.resetPropertiesValues();
 		noLayout.initAlgo();
-		for(int i = 0; i < 5000 && noLayout.canAlgo(); i++){
+		for(int i = 0; i < 1000 && noLayout.canAlgo(); i++){
 			noLayout.goAlgo();
 		}
 		noLayout.endAlgo();
 
+		Modularity modularity = new Modularity();
+		modularity.execute(graphModel);
 		
-		
+		//Then, calculate the modularity to set colours
+		Column modColumn = graphModel.getNodeTable().getColumn(Modularity.MODULARITY_CLASS);
+		Function func2 = appearanceModel.getNodeFunction(modColumn, PartitionElementColorTransformer.class);
+		Partition partition2 = ((PartitionFunction) func2).getPartition();
+		System.out.println(partition2.size(graph) + " partitions found");
+		Palette palette2 = PaletteManager.getInstance().generatePalette(partition2.size(graph));
+		partition2.setColors(graph, palette2.getColors());
+		appearanceController.transform(func2);
 
+		
 		//now, adding the other stuff
 
 		Function degreeRanking = appearanceModel.getNodeFunction(graphModel.defaultColumns().degree(), RankingNodeSizeTransformer.class);
 		RankingNodeSizeTransformer sizeTransformer = (RankingNodeSizeTransformer) degreeRanking.getTransformer();
 		sizeTransformer.setMinSize(10);
-		sizeTransformer.setMaxSize(50);
+		sizeTransformer.setMaxSize(30);
 		appearanceController.transform(degreeRanking);
 
 
@@ -142,6 +162,7 @@ public class interactGephi{
 		model.getProperties().putValue(PreviewProperty.EDGE_OPACITY, Float.valueOf(0.3f));
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_FONT, model.getProperties().getFontValue(PreviewProperty.NODE_LABEL_FONT).deriveFont(3f));
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_PROPORTIONAL_SIZE, Boolean.TRUE);
+		
 
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
