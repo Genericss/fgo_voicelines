@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
 //A lot of this code is taken from the gephi-toolkit-demos on their github
 //Specifically, the importExport example
 public class interactGephi{
-	public void script(){
+	public static void main (String[] args){
 		ProjectController pc = Lookup.getDefault().lookup(ProjectController.class);
 		pc.newProject();
 		Workspace workspace = pc.getCurrentWorkspace();
@@ -41,7 +41,7 @@ public class interactGephi{
 		ImportController importController = Lookup.getDefault().lookup(ImportController.class);
 		Container container;
 		try{
-			File file = new File(getClass().getResource("./generated_data/servant_voices.gv").toURI());
+			File file = new File(interactGephi.class.getResource("./generated_data/servant_voices.gv").toURI());
 			container = importController.importFile(file);
 			container.getLoader().setEdgeDefault(EdgeDirectionDefault.DIRECTED);
 			container.getLoader().setAllowAutoNode(false);
@@ -61,32 +61,33 @@ public class interactGephi{
 		System.out.println("Nodes: " + graph.getNodeCount());
 		System.out.println("Edges: " + graph.getEdgeCount());
 
-		AutoLayout autoLayout = new AutoLayout(10, TimeUnit.SECONDS);
-		autoLayout.setGraphModel(graphModel);
+//		AutoLayout autoLayout = new AutoLayout(10, TimeUnit.SECONDS);
+//		autoLayout.setGraphModel(graphModel);
+//
+//		layout.setGraphModel(graphModel);
+//		layout.resetPropertiesValues();
+//		layout.setLinLogMode(true);
+//
+//		autoLayout.addLayout(layout, 1f);
+//		autoLayout.execute();
+
+
+
+
 
 		layout.setGraphModel(graphModel);
 		layout.resetPropertiesValues();
 		layout.setLinLogMode(true);
 
-		autoLayout.addLayout(layout, 1f);
-		autoLayout.execute();
 
+		layout.initAlgo();
 
+		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
+			layout.goAlgo();
+		}
 
-	
 		
-//		layout.setGraphModel(graphModel);
-//		layout.resetPropertiesValues();
-//		layout.setLinLogMode(true);
-//
-//
-//		layout.initAlgo();
-//
-//		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
-//			layout.goAlgo();
-//		}
-//
-		
+		layout.endAlgo();
 
 
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
