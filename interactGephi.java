@@ -15,6 +15,7 @@ import org.gephi.graph.api.GraphController;
 import org.gephi.graph.api.GraphModel;
 import org.gephi.graph.api.DirectedGraph;
 
+import org.gephi.layout.plugin.AutoLayout;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2;
 import org.gephi.layout.plugin.forceAtlas2.ForceAtlas2Builder;
 
@@ -25,6 +26,7 @@ import org.gephi.io.processor.plugin.DefaultProcessor;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
+import java.util.concurrent.TimeUnit;
 //import java.io.ByteArrayOutputStream;
 
 
@@ -54,7 +56,27 @@ public class interactGephi{
 		//Once we are done importing, we mess with the graph properties a bit. 
 		GraphModel graphModel = Lookup.getDefault().lookup(GraphController.class).getGraphModel();
 		ForceAtlas2 layout = new ForceAtlas2(new ForceAtlas2Builder()); 
+
+		DirectedGraph graph = graphModel.getDirectedGraph();
+		System.out.println("Nodes: " + graph.getNodeCount());
+		System.out.println("Edges: " + graph.getEdgeCount());
+
+		AutoLayout autoLayout = new AutoLayout(10, TimeUnit.SECONDS);
+		autoLayout.setGraphModel(graphModel);
+
+		layout.setGraphModel(graphModel);
+		layout.resetPropertiesValues();
+		layout.setLinLogMode(true);
+
+		autoLayout.addLayout(layout, 1f);
+		autoLayout.execute();
+
+
+
+	
+		
 //		layout.setGraphModel(graphModel);
+//		layout.resetPropertiesValues();
 //		layout.setLinLogMode(true);
 //
 //
@@ -63,7 +85,7 @@ public class interactGephi{
 //		for(int i = 0; i < 1000 && layout.canAlgo(); i++){
 //			layout.goAlgo();
 //		}
-
+//
 		
 
 
@@ -79,10 +101,10 @@ public class interactGephi{
 
 		System.out.println("Generated output");
 
-		Exporter exporterGraphML = ec.getExporter("graphml");
-		exporterGraphML.setWorkspace(workspace);
-		StringWriter stringWriter = new StringWriter();
-		ec.exportWriter(stringWriter, (CharacterExporter) exporterGraphML);
+//		Exporter exporterGraphML = ec.getExporter("graphml");
+//		exporterGraphML.setWorkspace(workspace);
+//		StringWriter stringWriter = new StringWriter();
+//		ec.exportWriter(stringWriter, (CharacterExporter) exporterGraphML);
 
 		
 			
