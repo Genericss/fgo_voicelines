@@ -43,6 +43,7 @@ import org.gephi.preview.api.PreviewController;
 import org.gephi.preview.api.PreviewModel;
 import org.gephi.preview.api.PreviewProperty;
 import org.gephi.preview.types.EdgeColor;
+import org.gephi.preview.types.DependantOriginalColor;
 
 import org.openide.util.Lookup;
 
@@ -54,6 +55,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.concurrent.TimeUnit;
+import java.awt.Color;
 //import java.io.ByteArrayOutputStream;
 
 
@@ -93,8 +95,8 @@ public class interactGephi{
 
 
 		DirectedGraph graph = graphModel.getDirectedGraph();
-		System.out.println("Nodes: " + graph.getNodeCount());
-		System.out.println("Edges: " + graph.getEdgeCount());
+//		System.out.println("Nodes: " + graph.getNodeCount());
+//		System.out.println("Edges: " + graph.getEdgeCount());
 
 		//Filtering out those elements with zero degree
 		DegreeRangeFilter degreeFilter = new DegreeRangeFilter();
@@ -110,15 +112,13 @@ public class interactGephi{
 		layout.setGraphModel(graphModel);
 		layout.resetPropertiesValues();
 		layout.setLinLogMode(true);
-		layout.setScalingRatio(Double.valueOf(0.7));
+		layout.setScalingRatio(Double.valueOf(0.5));
 		
 
 		layout.initAlgo();
-
-		for(int i = 0; i < 2000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 30000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
-		
 		layout.endAlgo();
 		
 		//running a no overlap
@@ -126,12 +126,14 @@ public class interactGephi{
 		noLayout.setGraphModel(graphModel);
 		noLayout.resetPropertiesValues();
 		noLayout.initAlgo();
-		for(int i = 0; i < 1000 && noLayout.canAlgo(); i++){
+		for(int i = 0; i < 3000 && noLayout.canAlgo(); i++){
 			noLayout.goAlgo();
 		}
 		noLayout.endAlgo();
 
+		//Something about this modularity section sets off an illegal reflective access, I don't want to deal with it
 		Modularity modularity = new Modularity();
+		modularity.setResolution(0.75);
 		modularity.execute(graphModel);
 		
 		//Then, calculate the modularity to set colours
@@ -145,11 +147,10 @@ public class interactGephi{
 
 		
 		//now, adding the other stuff
-
 		Function degreeRanking = appearanceModel.getNodeFunction(graphModel.defaultColumns().degree(), RankingNodeSizeTransformer.class);
 		RankingNodeSizeTransformer sizeTransformer = (RankingNodeSizeTransformer) degreeRanking.getTransformer();
-		sizeTransformer.setMinSize(10);
-		sizeTransformer.setMaxSize(30);
+		sizeTransformer.setMinSize(5);
+		sizeTransformer.setMaxSize(20);
 		appearanceController.transform(degreeRanking);
 
 
@@ -158,11 +159,14 @@ public class interactGephi{
 		//then, setting preview properties
 	//	model.getProperties().putValue(PreviewProperty)
 		model.getProperties().putValue(PreviewProperty.SHOW_NODE_LABELS, Boolean.TRUE);
-		model.getProperties().putValue(PreviewProperty.EDGE_THICKNESS, Float.valueOf(0.1f));
-		model.getProperties().putValue(PreviewProperty.EDGE_OPACITY, Float.valueOf(0.3f));
+		model.getProperties().putValue(PreviewProperty.SHOW_EDGES, Boolean.TRUE);
+		model.getProperties().putValue(PreviewProperty.EDGE_THICKNESS, Float.valueOf(1f));
+		model.getProperties().putValue(PreviewProperty.EDGE_OPACITY, Float.valueOf(20f));
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_FONT, model.getProperties().getFontValue(PreviewProperty.NODE_LABEL_FONT).deriveFont(3f));
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_PROPORTIONAL_SIZE, Boolean.TRUE);
-		
+		model.getProperties().putValue(PreviewProperty.BACKGROUND_COLOR, Color.BLACK);
+		model.getProperties().putValue(PreviewProperty.NODE_LABEL_COLOR, new DependantOriginalColor(Color.WHITE));
+		model.getProperties().putValue(PreviewProperty.EDGE_COLOR, new EdgeColor(Color.WHITE));
 
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
