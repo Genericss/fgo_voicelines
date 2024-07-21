@@ -4,6 +4,7 @@ import org.gephi.io.importer.api.EdgeDirectionDefault;
 
 import org.gephi.io.exporter.api.ExportController;
 import org.gephi.io.exporter.preview.PDFExporter;
+import org.gephi.io.exporter.preview.PNGExporter;
 import org.gephi.io.exporter.spi.CharacterExporter;
 import org.gephi.io.exporter.spi.Exporter;
 import org.gephi.io.exporter.spi.GraphExporter;
@@ -110,7 +111,7 @@ public class interactGephi{
 		firstLayout.setGraphModel(graphModel);
 		firstLayout.resetPropertiesValues();
 		firstLayout.initAlgo();
-		for(int i = 0; i < 500 && firstLayout.canAlgo(); i++){
+		for(int i = 0; i < 800 && firstLayout.canAlgo(); i++){
 			firstLayout.goAlgo();
 		}
 		firstLayout.endAlgo();
@@ -124,7 +125,7 @@ public class interactGephi{
 		layout.setLinLogMode(true);
 		layout.setScalingRatio(Double.valueOf(0.5));
 		layout.initAlgo();
-		for(int i = 0; i < 5000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 15000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
 		layout.endAlgo();
@@ -134,14 +135,14 @@ public class interactGephi{
 		noLayout.setGraphModel(graphModel);
 		noLayout.resetPropertiesValues();
 		noLayout.initAlgo();
-		for(int i = 0; i < 1000 && noLayout.canAlgo(); i++){
+		for(int i = 0; i < 1200 && noLayout.canAlgo(); i++){
 			noLayout.goAlgo();
 		}
 		noLayout.endAlgo();
 
 		//Something about this modularity section sets off an illegal reflective access, I don't want to deal with it
 		Modularity modularity = new Modularity();
-		modularity.setResolution(0.75);
+		modularity.setResolution(0.8);
 		modularity.execute(graphModel);
 		
 		//Then, calculate the modularity to set colours
@@ -162,6 +163,7 @@ public class interactGephi{
 		appearanceController.transform(degreeRanking);
 
 
+		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
 
 		//then, setting preview properties
@@ -172,14 +174,22 @@ public class interactGephi{
 		model.getProperties().putValue(PreviewProperty.EDGE_OPACITY, Float.valueOf(20f));
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_FONT, model.getProperties().getFontValue(PreviewProperty.NODE_LABEL_FONT).deriveFont(3f));
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_PROPORTIONAL_SIZE, Boolean.TRUE);
+
+
+	
+		//since svg does not support black background, we need to export svg before we set the labels 
+		
 		model.getProperties().putValue(PreviewProperty.BACKGROUND_COLOR, Color.BLACK);
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_COLOR, new DependantOriginalColor(Color.WHITE));
 		model.getProperties().putValue(PreviewProperty.EDGE_COLOR, new EdgeColor(Color.WHITE));
 
-		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
+		PNGExporter pngExporter = (PNGExporter) ec.getExporter("png");
+		pngExporter.setHeight(4096);
+		pngExporter.setWidth(4096);
+		pngExporter.setWorkspace(workspace);
 		try {
-			ec.exportFile(new File("output.png"));
+			ec.exportFile(new File("./output_images/servant_voices.png"), pngExporter);
 		} catch (IOException ex){
 			ex.printStackTrace();
 			return;
