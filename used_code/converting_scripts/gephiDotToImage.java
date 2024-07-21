@@ -63,7 +63,7 @@ import java.awt.Color;
 
 //A lot of this code is taken from the gephi-toolkit-demos on their github
 //Specifically, the importExport example
-public class interactGephi{
+public class gephiDotToImage{
 	public static void main (String[] args){
 		ProjectController pc = Lookup.getDefault().lookup(ProjectController.class);
 		pc.newProject();
@@ -80,7 +80,9 @@ public class interactGephi{
 
 		Container container;
 		try{
-			File file = new File(interactGephi.class.getResource("./generated_data/servant_voices.gv").toURI());
+			//File file = new File(gephiDotToImage.class.getResource("../../generated_data/servant_voices.gv").toURI());
+			File file = new File("../../generated_data/servant_voices.gv");
+
 			container = importController.importFile(file);
 			container.getLoader().setEdgeDefault(EdgeDirectionDefault.DIRECTED);
 			container.getLoader().setAllowAutoNode(false);
@@ -179,7 +181,7 @@ public class interactGephi{
 	
 		//since svg does not support black background, we need to export svg before we set the labels 
 		try {
-			ec.exportFile(new File("./output_images/servant_voices.svg"));
+			ec.exportFile(new File("../../output_images/servant_voices.svg"));
 		} catch (IOException ex){
 			ex.printStackTrace();
 			return;
@@ -195,7 +197,7 @@ public class interactGephi{
 		pngExporter.setWidth(4096);
 		pngExporter.setWorkspace(workspace);
 		try {
-			ec.exportFile(new File("./output_images/servant_voices.png"), pngExporter);
+			ec.exportFile(new File("../../output_images/servant_voices.png"), pngExporter);
 		} catch (IOException ex){
 			ex.printStackTrace();
 			return;
