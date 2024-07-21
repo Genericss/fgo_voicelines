@@ -1,12 +1,8 @@
-#!C:\Program Files (x86)\GnuWin32\bin\awk.exe
+
 
 function strip_quotes(name){
 	return substr(name, 2, length(name)-2);
 }
-
-
-#please run the program with something like this
-#"C:\Program Files (x86)\GnuWin32\bin\awk.exe" -F "," -f "C:\Users\justn\Downloads\onlyVoice.awk" < "C:\Users\justn\Downloads\nice_servant_lore.csv" > "C:\Users\justn\Downloads\fixedOutput.csv"   
 
 
 BEGIN{
@@ -20,39 +16,42 @@ BEGIN{
 
 
 {
+	#Prints the servant id
 	if($2 == "\"id\":"){
 		print($0);
 
 	}
 
+	#Checks if this is the voiceline section
 	if($3 == "\"cv\":" ){
 		
 		inProfile = 1;
 	}
-
+	
+	#This variable is set later, it's because the voiceline and voiceline condition is disjointed
 	if(viewNextLine == 1){
+
 		if($7 == "\"svtGet\"" ||$7=="\"svtGroup\""){
+			#This checks the condition
 			if($7 == "\"svtGet\"" ){
 				single = 1;
 			}else{
 				single = 2;
 			}
-			#print($0);
+
+			#And records the servants for whom this voiceline is for
 			servants = "";
-			#printf(",,%d,%s", single,$7);
 			for(i=(7+1);i<=NF;i++){
 				if($i == "["){
 					continue;
 				}else if($i == "]"){
 					break;
 				}else{
-					#printf(",%s", $i);
 					servants = (servants "," $i);
 				}
 			}
 			print("," single subtitle);
 			print("," single servants);
-			#printf("\n");
 		}
 		viewNextLine = 0;
 	}
@@ -69,6 +68,8 @@ BEGIN{
 				subtitle = ("," $6 ",") 
 
 				#printf(",,%s,", $6);
+
+				#This section parses out the subtitle to use as a label
 				for(i=1;i<=NF;i++){
 					if($i ~ "subtitle"){
 						
@@ -81,6 +82,7 @@ BEGIN{
 						#for(j=i+1; substr($j, length($j)-1, 1) != "\""; j++){
 						#it was breaking at altera-rama transition, b/c altera also had a voiceline with escaped quotes
 						#changed just to check for conds
+						
 						for(j=i+1; $j !="\"conds\":"; j++){
 
 						#for(j=i+1; substr($j, length($j), 1) != "\""; j++){
@@ -90,11 +92,6 @@ BEGIN{
 						
 						i = j;
 
-						#print($j)
-						#subtitle = (subtitle "\n");
-						#print(subtitle);
-						#printf("\n");
-						#printf(" %s\n", $(i+1));
 					}
 					if($i=="\"conds\":"){
 						
@@ -104,16 +101,10 @@ BEGIN{
 							print("," subtitle);
 						}
 						
-						
-	
-						#print($i, $(i+1), $(i+2), $(i+3))
 						break;
 					}
 				}
 
-#				if($0 ~ "\"conds\":"){
-#					viewNextLine = 1;
-#				}
 
 			}
 		}

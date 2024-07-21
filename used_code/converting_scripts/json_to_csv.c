@@ -11,16 +11,6 @@ int main(int argc, char *argv[]){
 	char* buffer = (char*)malloc(sizeof(char) * buf_len);
 	int counter = 0;
 
-	//functionlly, the idea here is to read in buf_len sized chunks from the file
-	//The main goal of this is to sort by csv, which is already mostly being done
-	//Functionlly, we simply need to print everything [{a,b,c={}}]
-	//This will be done by keeping a counter...
-	//If the counter encounters a left bracket, it increments by one
-	//If the counter encounters a right bracket, it decrements by one
-	//Only print a bracket if the counter is greater or equal to 2 (ge 1)
-	//
-	
-
 	//Here is the necessary structure:
 	//Each value gets a new line
 	//Members of a list share a line
@@ -34,26 +24,20 @@ int main(int argc, char *argv[]){
 	//Endsubstucture: 2
 	//
 
-
+	//Honestly, the best way to figure out how this works is to see the input json and check the output csv
+	//The idea was that for lists like [1, 2, 3] to determine if it was in the list by tracking left and right brackets
+	//And then print them on a line if so
+	//Simultaneously, we want to break elements of {a, b, c} into new lines
+	//So, if a {} are encountered, we place a new line
+	//We also want to "indent" when viewed on excel, so we add a corresponding amount of preceding commas
 	
 
 	//This is the worst json to csv converter ever
-	//In the end, there is some kind of unbounded formatting...
 	
 	int inList = 0;
 	
 	while(fread(buffer, sizeof(char), buf_len, fp)){
 		for(int i = 0; i < buf_len; i++){
-//			if(buffer[i] == '{' || buffer[i] == '['){
-//				counter = counter + 1;
-//				fputc('\n', ofp);
-//				for(int j=0; j < counter; j++){
-//					fputc(',', ofp);
-//				}
-//			}else if(buffer[i] == '}' || buffer[i] == ']'){
-//				counter = counter - 1;
-//			}
-
 			if(buffer[i] == '['){
 				inList++;
 			}else if (buffer[i] == ']'){
@@ -97,14 +81,6 @@ int main(int argc, char *argv[]){
 			// 	fputc(out, ofp);
 			// 	fputc(buffer[i], ofp);
 			// }
-				
-//			if(counter>=2){
-//				fputc(buffer[i], ofp);
-//			}else if(counter == 1 && buffer[i] ==','){
-//				for(int j=0; j < 10; j++)
-//				fputc('\n', ofp);
-//				
-//			}
 			
 		}
 				

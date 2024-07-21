@@ -2,9 +2,8 @@ import csv
 import sys
 import graphviz
 
-#This is a no go, I think the best bet is to get linux for windows, try to install graphviz onto there, and then proceed to generate the graph (port to bokeh)
+#The point of this is to convert the direct_servant_voices csv into a dot file format
 
-#On the global level, set a graph
 
 top_level = graphviz.Digraph('servant_voices', strict=True) 
 def main():
@@ -19,41 +18,38 @@ def main():
 	current_node = ""
 	viewNextLine = 0
 	voiceline=""
+
+	#The input format of the csv should be something along the lines of
+	#id...
+	#voiceline:
+	#servant id
+	#voiceline
+	#servant id
+
 	for line in csvreader:
+		#This indicates the first line, which specifies the servant for whom the voicelines are being created for
 		if (line[1] == 'id:'):
 			current_node = line[2]
-			#with top_level.subgraph(name='cluster_' + line[18]) as G:
-#			font_col = 'black'
-#			fill_col = line[16]
-#			if(int(line[16]) > 12):
-#				font_col = 'white'	
-#				fill_col = 'black'
-#			top_level.node(current_node, line[6], fillcolor=fill_col, fontcolor=font_col)
 			top_level.node(current_node, line[6], servant_class=line[16])
 			
+		#This indicates a voicelines, where 1 is to a single servant and 2 is to multiple
 		if(line[1] == '1' or line[1] == '2'):
 			
+			#The servant id for whom the voice is for is actually on the next line, so set a flag to view
 			if(not viewNextLine):
 				viewNextLine = line[1]
 				voiceline=line[3]
 			else:
+				#And then create an edge between the current servant and their voicelines
 				if(viewNextLine == '1'):
 					top_level.edge(current_node, line[3], label=voiceline)
-					#pass
-#				else:
-#					#for collections
-#					#Groups are identified as a 4 digit (1023)..
-#					#So, i am arbitrarily going to give it
-#					group_id = line[3]
-#					#colour = "#" + string_to_hex_string(group_id[1]) + '0' + string_to_hex_string(group_id[2]) + '0' + string_to_hex_string(group_id[3]) + '0'
-#					for i in range(6, len(line)):
-#						top_level.edge(current_node, line[i], label='group_'+voiceline)
 				viewNextLine = 0
 
 
 	fp.close()
+	#We just write this into a file format instead of rendering it
 	with open(sys.argv[2], "w", encoding="utf-8") as fp:
 		fp.write(top_level.source)	
-#	G.render(directory='/home/ngjust14/fate_graphs', view=False)
+
 if __name__ == "__main__":
 	main()
