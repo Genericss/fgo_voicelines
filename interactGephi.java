@@ -171,7 +171,7 @@ public class interactGephi{
 		ExportController ec = Lookup.getDefault().lookup(ExportController.class);
 
 		try {
-			ec.exportFile(new File("output.svg"));
+			ec.exportFile(new File("output.png"));
 		} catch (IOException ex){
 			ex.printStackTrace();
 			return;
