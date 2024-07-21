@@ -1,6 +1,6 @@
 #!/bin/bash
 old_dir=$(pwd)
-cd ./input_data/
+cd ../../input_data/
 
 if [ -f ./nice_servant_lore.json ]; then
 	last_modified=$(date -r ./nice_servant_lore.json "+%Y-%m-%d")

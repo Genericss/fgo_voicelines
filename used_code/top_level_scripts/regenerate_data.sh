@@ -1,7 +1,7 @@
 #!/bin/bash
 
 old_dir=$(pwd)
-cd ./used_code/launching_scripts/
+cd ../launching_scripts/
 
 #These two convert the input JSON to a csv format I like
 ./convert_json_lore_to_csv.sh
