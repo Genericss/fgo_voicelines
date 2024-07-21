@@ -178,7 +178,13 @@ public class interactGephi{
 
 	
 		//since svg does not support black background, we need to export svg before we set the labels 
-		
+		try {
+			ec.exportFile(new File("./output_images/servant_voices.svg"));
+		} catch (IOException ex){
+			ex.printStackTrace();
+			return;
+		}	
+
 		model.getProperties().putValue(PreviewProperty.BACKGROUND_COLOR, Color.BLACK);
 		model.getProperties().putValue(PreviewProperty.NODE_LABEL_COLOR, new DependantOriginalColor(Color.WHITE));
 		model.getProperties().putValue(PreviewProperty.EDGE_COLOR, new EdgeColor(Color.WHITE));
@@ -194,6 +200,13 @@ public class interactGephi{
 			ex.printStackTrace();
 			return;
 		}
+		
+//		try {
+//			ec.exportFile(new File("./output_images/servant_voices.pdf"));
+//		} catch (IOException ex){
+//			ex.printStackTrace();
+//			return;
+//		}
 
 		System.out.println("Generated output");
 
