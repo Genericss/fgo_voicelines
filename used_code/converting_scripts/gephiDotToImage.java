@@ -81,7 +81,8 @@ public class gephiDotToImage{
 		Container container;
 		try{
 			//File file = new File(gephiDotToImage.class.getResource("../../generated_data/servant_voices.gv").toURI());
-			File file = new File("../../generated_data/servant_voices.gv");
+			String fname = args[0];
+			File file = new File(fname);
 
 			container = importController.importFile(file);
 			container.getLoader().setEdgeDefault(EdgeDirectionDefault.DIRECTED);
