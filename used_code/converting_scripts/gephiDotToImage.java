@@ -128,7 +128,7 @@ public class gephiDotToImage{
 		layout.setLinLogMode(true);
 		layout.setScalingRatio(Double.valueOf(0.5));
 		layout.initAlgo();
-		for(int i = 0; i < 15000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 30000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
 		layout.endAlgo();
@@ -145,7 +145,7 @@ public class gephiDotToImage{
 
 		//Something about this modularity section sets off an illegal reflective access, I don't want to deal with it
 		Modularity modularity = new Modularity();
-		modularity.setResolution(0.8);
+		modularity.setResolution(0.85);
 		modularity.execute(graphModel);
 		
 		//Then, calculate the modularity to set colours
