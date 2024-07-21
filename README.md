@@ -14,6 +14,8 @@ All the generated files are placed in the generated_data folder.
 
 From this, graphviz images can be generated (in archive/images) or gephi used, along with the sigmaJS plugin to generate a version visable online
 
+Using the gephi-toolkit/java, images are automatically generated as well (this was a real pain). 
+
 The online version is viewable from the network folder, hosted on the following links:
 	https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_voicelines
 	https://genericss.github.io/fgo_voicelines/interactive_graphs/all_voices
@@ -23,14 +25,16 @@ Gephi project files will also be provided somewhere
 TODO: the python script to parse csv into dot file using graphviz can likely be phased out, since it doesn't actually render. It just writes out the dot source code and exits. Originally, it was going to do more interactions and pass it to other files, but changes had to be made (read: none of them were working)
 making an edit to force commit
 
+
+
 Installations:
 	The majority of this was done on Linux, so I have:
--		A lot of shell scripts to run the various programs I have
--		gcc compiled the c executable
--		awk parses the csv
--		Graphviz is installed, although this can be phased out since it's only used to pass to Gephi
--		Gephi is installed on Windows, although this will likely be changed.
+		A lot of shell scripts to run the various programs I have
+		gcc compiled the c executable
+		awk parses the csv
+		Graphviz is installed, although this can be phased out since it's only used to pass to Gephi
+		Gephi is installed on Windows, although this will likely be changed.
 		EDIT: 
--			I downloaded the gephi-toolkit for java, which is hanging out in the downloaded_libraries directory
--			I also had to download the java development kit for linux (version 11). 
+			I downloaded the gephi-toolkit for java, which is hanging out in the downloaded_libraries directory
+			I also had to download the java development kit for linux (version 11). 
 
