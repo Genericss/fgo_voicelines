@@ -106,6 +106,16 @@ public class interactGephi{
 		GraphView view = filterController.filter(query);
 		graphModel.setVisibleView(view);
 
+		NoverlapLayout firstLayout = new NoverlapLayout(new NoverlapLayoutBuilder());
+		firstLayout.setGraphModel(graphModel);
+		firstLayout.resetPropertiesValues();
+		firstLayout.initAlgo();
+		for(int i = 0; i < 500 && firstLayout.canAlgo(); i++){
+			firstLayout.goAlgo();
+		}
+		firstLayout.endAlgo();
+
+		//Something about this modularity section sets off an illegal reflective access, I don't want to deal with it
 		
 		//setting layout (initial forceatlas) set to what i shuffle on gephi
 		ForceAtlas2 layout = new ForceAtlas2(new ForceAtlas2Builder()); 
@@ -113,10 +123,8 @@ public class interactGephi{
 		layout.resetPropertiesValues();
 		layout.setLinLogMode(true);
 		layout.setScalingRatio(Double.valueOf(0.5));
-		
-
 		layout.initAlgo();
-		for(int i = 0; i < 30000 && layout.canAlgo(); i++){
+		for(int i = 0; i < 5000 && layout.canAlgo(); i++){
 			layout.goAlgo();
 		}
 		layout.endAlgo();
@@ -126,7 +134,7 @@ public class interactGephi{
 		noLayout.setGraphModel(graphModel);
 		noLayout.resetPropertiesValues();
 		noLayout.initAlgo();
-		for(int i = 0; i < 3000 && noLayout.canAlgo(); i++){
+		for(int i = 0; i < 1000 && noLayout.canAlgo(); i++){
 			noLayout.goAlgo();
 		}
 		noLayout.endAlgo();
