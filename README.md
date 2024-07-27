@@ -2,9 +2,8 @@
 Graph to visualize FGO servant voicelines for each other. 
 Each character in FGO may have direct voicelines for each other; this graph visualizes those direct connections. 
 The online version is viewable from the interactive_graphs folder, hosted on the following links:
-	
- 	https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_voicelines
-	https://genericss.github.io/fgo_voicelines/interactive_graphs/all_voices
+     https://genericss.github.io/fgo_voicelines/interactive_graphs/direct_voicelines
+     https://genericss.github.io/fgo_voicelines/interactive_graphs/all_voices
 
 First, a downloaded JSON file from Atlas Academy is placed in the input_data folder.
 Then, custom C and Awk scripts are used to parse the JSON (because I can't deal with javascript) into various csvs. 
