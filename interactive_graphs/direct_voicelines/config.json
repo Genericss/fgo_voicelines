@@ -9,12 +9,12 @@
   },
   "text": {
     "more": "",
-    "intro": "This graph filters out any servant with no direct voicelines to or from and proportionally sizes the node with respect to the degree (number of connections). ",
+    "intro": "This graph shows direct voicelines, coloured by modularity class",
     "title": "Servant Voicelines"
   },
   "legend": {
     "edgeLabel": "Voiceline",
-    "colorLabel": "Class",
+    "colorLabel": "",
     "nodeLabel": "Servant"
   },
   "features": {
@@ -40,10 +40,10 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 2,
-      "minEdgeSize": 2,
-      "minNodeSize": 1,
-      "maxNodeSize": 18
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 3,
+      "maxNodeSize": 9
     },
     "mouseProperties": {
       "maxRatio": 20,
