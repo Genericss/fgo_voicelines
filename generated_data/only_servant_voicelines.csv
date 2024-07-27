@@ -3599,6 +3599,24 @@
 ,2,"value":,1200,"valueList":,304400,603500
 ,1,"Conversation 12","That young man is Lü Shang? Hoohoho... Don't go pulling an old man's leg.",
 ,1,"value":,404300,"valueList":,
+,"id":,505200,"collectionNo":,358,"name":,"Wu Zetian (Caster)","originalName":,"Wu Zetian (Caster)","ruby":,"Wu Zetian (Caster)","battleName":,"Wu Zetian","originalBattleName":,"Wu Zetian","classId":,5,"className":,"caster","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
+,,"Conversation 1","I needn't even ring my bell. Whenever I want to go, you come with me. Now, let's go!",
+,,"Conversation 2","The relationship between a Servant and Master is much more transparent than the hierarchy in the inner palace. Not everyone is faithful to those who are exceptional. In fact...\nNo, it's a trivial story. Forget I brought it up.",
+,,"Conversation 3","Even in this outfit, I am still an unrivaled empress. Don't forget to show proper respect.",
+,1,"Conversation 7","Hey, Yang Yuhuan! No, no, don't stand next to me! We're already doubling up on looks...I wouldn't want to share the spotlight with you!\nThen again...I'm superior to you.",
+,1,"value":,2500400,"valueList":,
+,1,"Conversation 8","I finally understand how you feel, Xuanzang Sanzang. Swimsuits are surprisingly easy to move around in. If you want to prioritize mobility, I can understand why you would wear something like that on a normal basis.\nHm? You're not wearing a swimsuit?\nAre you...certain?",
+,1,"value":,502200,"valueList":,
+,2,"Conversation 9","This happened because I am a completely perfect empress. Children, I understand you might be envious, but wearing a swimsuit doesn't automatically let you grow up to be an adult. Don't feel rushed! Just work hard to better yourself!",
+,2,"value":,1317,"valueList":,202700,204200,302600,500400,502800,504100,600500,702600,702800,2500100,2500700
+,2,"Conversation 10","Erice, was it? You say you are possessed by evil spirits? All right, sit there and show me your forehead.\n(Slap)\n...How do you feel!?\nNot working, huh? Seems like the evil spirits inside you are hard to deal with.\nI'll keep that in mind for future reference.",
+,2,"value":,1308,"valueList":,304300,1101400
+,1,"Conversation 11","As a thief, she makes her victims scream. The Taoist me makes ghosts scream. Heh. Our talents for torture are undiminished by our swimsuits.",
+,1,"value":,403600,"valueList":,
+,1,"Conversation 12","Hey, Chen Gong!\nDon't you dare think my jiāngshī are ammo for your sacrificial tactics! I'm never loaning them out to you!",
+,1,"value":,504400,"valueList":,
+,2,"Conversation 13","When someone who is already beautiful to begin with changes into a swimsuit...attracting more attention and stares is certainly troublesome...\nHmmm, do you think Medb or Yu Mei-ren would understand how I feel?\nBeing too beautiful sure can be a curse.",
+,2,"value":,1318,"valueList":,103400,304400
 ,"id":,600100,"collectionNo":,39,"name":,"Sasaki Kojirou","originalName":,"Sasaki Kojirou","ruby":,"Sasaki Kojirou","battleName":,"Kojirou","originalBattleName":,"Kojirou","classId":,6,"className":,"assassin","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,1,"cost":,3,"lvMax":,60,"extraAssets":,
 ,,"Conversation 1","Shall we depart soon? I am ready.",
 ,,"Conversation 2","You want to know if I have any complaints? I am but a humble warrior. I shall follow your orders, Master.",
@@ -5132,6 +5150,80 @@
 ,1,"value":,202300,"valueList":,
 ,1,"Conversation 12","Even when Holmes dies, he will rise again. But it won't be the same guy who fought with you in the Lostbelt...\nAnd yet Holmes is Holmes.\nThis is the conundrum which plagues Servants, not just Holmes.\nThat man solved the mystery at the very end by risking his life. He may be irritating, but I do have to respect him.",
 ,1,"value":,900500,"valueList":,
+,"id":,901400,"collectionNo":,357,"name":,"Scáthach-Skadi (Ruler)","originalName":,"Scáthach-Skadi (Ruler)","ruby":,"Scáthach-Skadi (Ruler)","battleName":,"Scáthach-Skadi","originalBattleName":,"Scáthach-Skadi","classId":,9,"className":,"ruler","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
+,,"Conversation 1","You want to go out somewhere with me?\nHonestly, you are quite demanding.",
+,,"Conversation 2","You serve me. Don't forget that.",
+,,"Conversation 3","\"Master.\"\nI remain unaccustomed to this address for you, as you serve me. Anyway, forget what I just said.",
+,2,"Conversation 9","The Celtic Child of Light can't do a single thing to me.\nHeh heh... The Celtic Scáthach said that he would be overwhelmed by my swimsuit Spirit Origin.",
+,2,"value":,1314,"valueList":,300100,300700,702000
+,1,"Conversation 10","A Caster Spirit Origin Cú Chulainn?\n(Turn) I don't know who you're talking about.",
+,1,"value":,502100,"valueList":,
+,1,"Conversation 11","Ah, Brynhild, the eldest of the warrior maidens. Look here, I've changed into a swimsuit too!",
+,1,"value":,703800,"valueList":,
+,2,"Conversation 12","Medb, what's the matter? Well, this is me in my swimsuit Spirit Origin.\nMedb? Why have you stopped dead in your track and gone silent?\nMedb!?",
+,2,"value":,1106,"valueList":,103400,401300
+,2,"Conversation 13","Take a look at me, Celtic Scáthach. What do you think of my swimsuit Spirit Origin? Personally I think the lack of coverage...\nHm? I still have a long way to go as Scáthach if I think like that? I-I see, I suppose that's how things go... That's quite the challenge.",
+,2,"value":,1100,"valueList":,301300,602400
+,2,"Conversation 14","Maybe I should have consulted you more on this. Hm, what's that? The concept itself was not a bad one? I see. I'm more confident, hearing that from you.",
+,2,"value":,1100,"valueList":,301300,602400
+,2,"Conversation 15","S-sorry for causing you concern earlier...\nYou're mad that I didn't even consult you on this matter? Well, that's because there was that Christmas incident, so I thought I should deal with this alone...\nOh, well...I'm sorry. Apologies.",
+,2,"value":,1106,"valueList":,103400,401300
+,1,"Conversation 16","You've done a lot for me, and I'm indebted to you.",
+,1,"value":,704300,"valueList":,
+,2,"Conversation 17","Heroic Spirits who have swimsuit Spirit Origins...I apologize for making you busier during the summer season. I hope you managed to enjoy yourselves at least a little bit.",
+,2,"value":,1315,"valueList":,105400,203200,302900,404100,504300,505200,602600,703100,704100,1101400
+,2,"Conversation 18","The Valkyries from Proper Human History. Are you all okay? Odin hasn't done anything bad to you, has he?",
+,2,"value":,1316,"valueList":,604300,604400,604500
+,2,"Conversation 19","The Valkyries from Proper Human History... I never imagined your numbers would double...\n(Gasp)\nUh...well...I... Okay, let me confess...\nIt's true that I was angry after my argument with Thrúd, but I do not recall summoning new warrior maidens. And it wasn't the power of Ibuki-Douji either.\nThat was actually more of Odin's meddling...perhaps?",
+,2,"value":,1316,"valueList":,604300,604400,604500
+,,"Conversation 1","You want to go out somewhere with me?\nHonestly, you are quite demanding.",
+,,"Conversation 2","You serve me. Don't forget that.",
+,,"Conversation 3","\"Master.\"\nI remain unaccustomed to this address for you, as you serve me. Anyway, forget what I just said.",
+,2,"Conversation 9","The Celtic Child of Light can't do a single thing to me.\nHeh heh... The Celtic Scáthach said that he would be overwhelmed by my swimsuit Spirit Origin.",
+,2,"value":,1314,"valueList":,300100,300700,702000
+,1,"Conversation 10","A Caster Spirit Origin Cú Chulainn?\n(Turn) I don't know who you're talking about.",
+,1,"value":,502100,"valueList":,
+,1,"Conversation 11","Ah, Brynhild, the eldest of the warrior maidens. Look here, I've changed into a swimsuit too!",
+,1,"value":,703800,"valueList":,
+,2,"Conversation 13","Take a look at me, Celtic Scáthach. What do you think of my swimsuit Spirit Origin? Personally I think the lack of coverage...\nHm? I still have a long way to go as Scáthach if I think like that? I-I see, I suppose that's how things go... That's quite the challenge.",
+,2,"value":,1100,"valueList":,301300,602400
+,2,"Conversation 14","Maybe I should have consulted you more on this. Hm, what's that? The concept itself was not a bad one? I see. I'm more confident, hearing that from you.",
+,2,"value":,1100,"valueList":,301300,602400
+,2,"Conversation 15","S-sorry for causing you concern earlier...\nYou're mad that I didn't even consult you on this matter? Well, that's because there was that Christmas incident, so I thought I should deal with this alone...\nOh, well...I'm sorry. Apologies.",
+,2,"value":,1106,"valueList":,103400,401300
+,1,"Conversation 16","You've done a lot for me, and I'm indebted to you.",
+,1,"value":,704300,"valueList":,
+,2,"Conversation 17","Heroic Spirits who have swimsuit Spirit Origins...I apologize for making you busier during the summer season. I hope you managed to enjoy yourselves at least a little bit.",
+,2,"value":,1315,"valueList":,105400,203200,302900,404100,504300,505200,602600,703100,704100,1101400
+,2,"Conversation 18","The Valkyries from Proper Human History. Are you all okay? Odin hasn't done anything bad to you, has he?",
+,2,"value":,1316,"valueList":,604300,604400,604500
+,2,"Conversation 19","The Valkyries from Proper Human History... I never imagined your numbers would double...\n(Gasp)\nUh...well...I... Okay, let me confess...\nIt's true that I was angry after my argument with Thrúd, but I do not recall summoning new warrior maidens. And it wasn't the power of Ibuki-Douji either.\nThat was actually more of Odin's meddling...perhaps?",
+,2,"value":,1316,"valueList":,604300,604400,604500
+,,"Conversation 1","You want to go out somewhere with me?\nHonestly, you are quite demanding.",
+,,"Conversation 2","You serve me. Don't forget that.",
+,,"Conversation 3","\"Master.\"\nI remain unaccustomed to this address for you, as you serve me. Anyway, forget what I just said.",
+,2,"Conversation 9","The Celtic Child of Light can't do a single thing to me.\nHeh heh... The Celtic Scáthach said that he would be overwhelmed by my swimsuit Spirit Origin.",
+,2,"value":,1314,"valueList":,300100,300700,702000
+,1,"Conversation 10","A Caster Spirit Origin Cú Chulainn?\n(Turn) I don't know who you're talking about.",
+,1,"value":,502100,"valueList":,
+,1,"Conversation 11","Ah, Brynhild, the eldest of the warrior maidens. Look here, I've changed into a swimsuit too!",
+,1,"value":,703800,"valueList":,
+,2,"Conversation 12","Medb, what's the matter? Well, this is me in my swimsuit Spirit Origin.\nMedb? Why have you stopped dead in your track and gone silent?\nMedb!?",
+,2,"value":,1106,"valueList":,103400,401300
+,2,"Conversation 13","Take a look at me, Celtic Scáthach. What do you think of my swimsuit Spirit Origin? Personally I think the lack of coverage...\nHm? I still have a long way to go as Scáthach if I think like that? I-I see, I suppose that's how things go... That's quite the challenge.",
+,2,"value":,1100,"valueList":,301300,602400
+,2,"Conversation 14","Maybe I should have consulted you more on this. Hm, what's that? The concept itself was not a bad one? I see. I'm more confident, hearing that from you.",
+,2,"value":,1100,"valueList":,301300,602400
+,2,"Conversation 15","S-sorry for causing you concern earlier...\nYou're mad that I didn't even consult you on this matter? Well, that's because there was that Christmas incident, so I thought I should deal with this alone...\nOh, well...I'm sorry. Apologies.",
+,2,"value":,1106,"valueList":,103400,401300
+,1,"Conversation 16","You've done a lot for me, and I'm indebted to you.",
+,1,"value":,704300,"valueList":,
+,2,"Conversation 17","Heroic Spirits who have swimsuit Spirit Origins...I apologize for making you busier during the summer season. I hope you managed to enjoy yourselves at least a little bit.",
+,2,"value":,1315,"valueList":,105400,203200,302900,404100,504300,505200,602600,703100,704100,1101400
+,2,"Conversation 18","The Valkyries from Proper Human History. Are you all okay? Odin hasn't done anything bad to you, has he?",
+,2,"value":,1316,"valueList":,604300,604400,604500
+,2,"Conversation 19","The Valkyries from Proper Human History... I never imagined your numbers would double...\n(Gasp)\nUh...well...I... Okay, let me confess...\nIt's true that I was angry after my argument with Thrúd, but I do not recall summoning new warrior maidens. And it wasn't the power of Ibuki-Douji either.\nThat was actually more of Odin's meddling...perhaps?",
+,2,"value":,1316,"valueList":,604300,604400,604500
 ,"id":,1000100,"collectionNo":,164,"name":,"Passionlip","originalName":,"Passionlip","ruby":,"Passionlip","battleName":,"Passionlip","originalBattleName":,"Passionlip","classId":,10,"className":,"alterEgo","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","What a long break you're taking...\nI-I mean, to each their own, and I don't mind staying inside...!",
 ,,"Conversation 2","Servants are to serve their Masters... I'm scared, but I will help you.",
