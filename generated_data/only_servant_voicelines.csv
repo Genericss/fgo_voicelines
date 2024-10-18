@@ -157,7 +157,7 @@
 ,1,"Conversation 18","Ah...Lady Murasaki Shikibu...\nYou certainly look good today.\nHm, a widowed librarian Caster, as elegant as ever.",
 ,1,"value":,504200,"valueList":,
 ,2,"Conversation 19","Do you have a moment, lovely lady passing my way?\nIf you have some time to spare, would you care to spend it with me?\nIn modern terms, you'd call what I'm doing hitting on women.",
-,2,"value":,1187,"valueList":,101700,102800,103400,103900,104500,104600,105000,200500,202100,202500,202800,203700,203900,204300,204500,301200,301300,301900,302000,302400,302800,302900,303500,303800,304100,304400,304600,400100,400300,400900,401100,401300,401800,401900,403600,404000,404100,404400,404500,404800,500100,500300,500900,501200,502000,502200,502300,503000,503400,503900,504200,504600,505200,600300,601100,601400,601700,602400,602800,603000,603200,603500,604100,604200,701400,701600,702300,702700,703000,703400,703600,703700,703800,703900,704000,704200,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,2300300,2300400,2300500,2500200,2500300,2500400,2500900,2501000,2800300
+,2,"value":,1187,"valueList":,101700,102800,103400,103900,104500,104600,105000,200500,202100,202500,202800,203700,203900,204300,204500,301200,301300,301900,302000,302400,302800,302900,303500,303800,304100,304400,304600,400100,400300,400900,401100,401300,401800,401900,403600,404000,404100,404400,404500,404800,500100,500300,500900,501200,502000,502200,502300,503000,503400,503900,504200,504600,505200,600300,601100,601400,601700,602400,602800,603000,603200,603500,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,703800,703900,704000,704200,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,2300300,2300400,2300500,2500200,2500300,2500400,2500900,2501000,2800300
 ,2,"Conversation 20","Ah, hello, pharaoh.\nI must thank you for always taking care of my Cleopatra.",
 ,2,"value":,1186,"valueList":,400200,401200,501200,602800
 ,1,"Conversation 21","This gushing, overflowing feeling of Rome...\nGreat Romulus! But no, your current appearance is that of the god Quirinus!\n(Gasp)\nYes...you may say that I must \"acknowledge\"...but...\nI beg of you! Please...please, only until Master saves Humanity!",
@@ -1503,7 +1503,7 @@
 ,1,"Conversation 9","I have never been king. While there were some falsehoods in the story, I will not withhold praise for the actual work.",
 ,1,"value":,404800,"valueList":,
 ,2,"Conversation 10","Detecting oni or demonic presence. Intercept, obliterate, defend, communicate information...\n...Battle unfeasible?\nHm...that is no good.",
-,2,"value":,1301,"valueList":,104500,104600,202100,204300,303400,304000,304400,304600,601900,602100,603500,604100,604200,702200,703700,704300,1001000,1001200,1101100,2500900
+,2,"value":,1301,"valueList":,104500,104600,202100,204300,303400,304000,304400,304600,601900,602100,603500,604100,604200,604600,702200,703700,704300,1001000,1001200,1101100,2500900
 ,2,"Conversation 11","Speculating that her True Name is Minamoto-no-Yoshitsune. We are of the same faction this time. Let us be on good terms with each other. Furthermore, let me state one obvious thing:, I, Minamoto-no-Tametomo, will die if my head is taken. Based on the look of disbelief on your face, I deduce you thought I would not die even if I was slain. My answer:, what an idiotic thought you had.",
 ,2,"value":,1302,"valueList":,401400,603400
 ,2,"Conversation 12","A body of steel. Internal body is also perfectly armed. I deduce she possesses similar or possibly greater performance specifications than I. Setting alert level to three...\nA new function known as Mecha Eli-chan alert has been implemented.\n",
@@ -1572,6 +1572,8 @@
 ,1,"value":,502200,"valueList":,
 ,1,"Conversation 12","You're amazing, Calamity! Are you a cowgirl? You almost look like cheerleader. I love it! By the way, have you ever had any interest in joining an idol unit?",
 ,1,"value":,203700,"valueList":,
+,1,"Conversation 14","Elisa the Nine-Tattooed Dragon... No...it can't be...!\nHuh? You're asking if there are other Elisabeths? Of course there are, because we're talking about me!\nWhy there are so many of them? Well, that's actually a philosophical question...\nHuh? You're saying that the possibilities for Elisabeth are endless? I see... Yes, you're right! There are infinite Elisabeths!",
+,1,"value":,2800400,"valueList":,
 ,"id":,300600,"collectionNo":,19,"name":,"Musashibou Benkei","originalName":,"Musashibou Benkei","ruby":,"Musashibou Benkei","battleName":,"Benkei","originalBattleName":,"Benkei","classId":,3,"className":,"lancer","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,2,"cost":,4,"lvMax":,65,"extraAssets":,
 ,,"Conversation 1","Hmph. A rather ominous wind is blowing.",
 ,,"Conversation 2","The Master I serve is Yoshitsune, but I would never disobey your orders.",
@@ -1617,9 +1619,9 @@
 ,2,"value":,1112,"valueList":,103500,300200
 ,,"Conversation 5","You have so many beautiful Servants...\nBut I mustn't. My beauty coupled together with theirs would only invite a tragic fate to befall us...",
 ,2,"Conversation 6","How beautiful...\nWhat a lovely maiden. I can see why she left a mark on history.\nOh no, no, no. This is no good.\nA damsel mustn't be left out on her own in danger, and any knight who permitted this to happen would surely have his reputation tarnished.\nAnd so, Master...\nI shall go fulfill my knightly duties... Understood?",
-,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,2300400,2300500,2500200,2500300,2500900,2800200,2800300
+,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,2300400,2300500,2500200,2500300,2500900,2800200,2800300
 ,2,"Conversation 7","How beautiful...\nWhat a lovely maiden. I can see why she left a mark on history.\nOh no, no, no. This is no good.\nA damsel mustn't be left out on her own in danger, and any knight who permitted this to happen would surely have his reputation tarnished.\nAnd so, Master...\nI shall go fulfill my knightly duties... Understood?",
-,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,2300400,2300500,2500200,2500300,2500900,2800200,2800300
+,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,2300400,2300500,2500200,2500300,2500900,2800200,2800300
 ,1,"Conversation 8","It's been a while since I've seen that sword...Diarmuid the knight.",
 ,1,"value":,103500,"valueList":,
 ,1,"Conversation 9","So you are the rumored King Fergus...or rather, Sir Fergus.\nIt seems we never run out of things to talk about!\nNow come, hand me your goblet!",
@@ -1653,7 +1655,7 @@
 ,2,"Conversation 7","Hm, so that's the Lostbelt version of me.\nEvery time I see her, she makes me realize that she represents a way my life might have gone...\nBut honestly, it gives me this tingly feeling... Maybe it's my motherly instinct or something else, but it stirs up a lot of feelings inside me.\nI see. So that's how you do things... Uh-huh...",
 ,2,"value":,1322,"valueList":,503900,901400
 ,2,"Conversation 8","Hm, I like how determined you appear.\nAll right. Let's do this.",
-,2,"value":,1207,"valueList":,100900,101400,101700,101900,102700,103200,103500,103600,104300,104700,104800,104900,105000,105400,201300,201500,203300,300200,300600,300900,301400,301700,303100,303500,303600,303800,303900,304100,304700,401400,401800,402400,402900,404400,600100,602600,603300,603400,603600,604000,604100,700800,702700,703500,703600,900700,900800,1101000,2800200
+,2,"value":,1207,"valueList":,100900,101400,101700,101900,102700,103200,103500,103600,104300,104700,104800,104900,105000,105400,201300,201500,203300,300200,300600,300900,301400,301700,303100,303500,303600,303800,303900,304100,304700,401400,401800,402400,402900,404400,600100,602600,603300,603400,603600,604000,604100,604600,700800,702700,703500,703600,900700,900800,1101000,2800200
 ,1,"Conversation 9","Wearing the red spear as armor is truly amusing...\nUh...ahem.\nUm, I mean, what an incompetent pupil of mine.\nYou'll need to retrain, Cú Chulainn.",
 ,1,"value":,702000,"valueList":,
 ,"id":,301400,"collectionNo":,186,"name":,"Houzouin Inshun","originalName":,"Houzouin Inshun","ruby":,"Houzouin Inshun","battleName":,"Houzouin Inshun","originalBattleName":,"Houzouin Inshun","classId":,3,"className":,"lancer","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,3,"cost":,7,"lvMax":,70,"extraAssets":,
@@ -1824,7 +1826,7 @@
 ,2,"Conversation 7","Older sister...?\nIt really is Brynhild!\nI...I...!\nI've always wanted to meet you...!",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","I sense a fallen warrior!\nI'm sorry, please give me some time, Master. I must lead them to Valhalla...\nOh, but they're a Servant, so I cannot lead them like I normally do with humans...if that's the case, I must recruit them personally...",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 10","The hero of Barnstokk...the son of Sigmund, Sigurd!\nYou...it's your fault that my older sister...!",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 11","This sensation...it seems to bring back memories...but it's a different feeling than what I have with my sisters...\nCould it be a trick of the senses?",
@@ -1837,7 +1839,7 @@
 ,2,"Conversation 7","No...it can't be...!\nI can't believe our sister Brynhild is here!\nWhat's going on!?",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","Hey, there's a warrior here!\nOh, there's a lot of them here...\nHmmm, I wish they would all come to Valhalla!",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 10","Sigurd...\nN-no, nothing. Never mind...",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 11","Wave-form detected.\nSynchronization...not possible.\nCannot scan corresponding body.\nThat's weird. I thought there was a comrade around, but I guess they're completely different.",
@@ -1850,7 +1852,7 @@
 ,2,"Conversation 7","Sister Brynhild...\nI never imagined I would see you again.\nOh?\nI feel warmth in my chest... What does this mean?",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","I have detected a fallen hero. I ask that you permit me to invite them to Valhalla, Master.",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 10","Sigurd.\nYou are the hero who seduced our older sister!\nI...we...will never forgive...!",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 11","This wavelength... No, I was wrong.\nYou're not a Valkyrie, but how could we be so...similar?",
@@ -2232,7 +2234,7 @@
 ,2,"Conversation 7","Wh-who the heck's that hottie!? Is that King Arthur!?\nNo way! What a coincidence that she's from my home country! Is she dating anyone? Come on, introduce me to her!",
 ,2,"value":,1289,"valueList":,100100,100200,100300,202600,301900,302000,402200,402700,601800,702400,900900,2500300,2500800
 ,2,"Conversation 8","There's a ton of cute reptile girls!!! I want to fondle them so much! I want to dig up their weak points!",
-,2,"value":,1290,"valueList":,100900,101000,104600,300500,302500,304000,304600,304800,402400,404400,404600,502600,504000,602100,701300,703700,704300
+,2,"value":,1290,"valueList":,100900,101000,104600,300500,302500,304000,304600,304800,402400,404400,404600,502600,504000,602100,701300,703700,704300,2800400
 ,2,"Conversation 9","Don'tcha think there's a bunch of roughneck womenfolk around here? It's scary! Someone just grabbed me by the chest! All I did was give them a funny look!",
 ,2,"value":,1291,"valueList":,100900,304100,402400,404500
 ,"id":,305000,"collectionNo":,329,"name":,"Sakamoto Ryouma (Lancer)","originalName":,"Sakamoto Ryouma (Lancer)","ruby":,"Sakamoto Ryouma","battleName":,"Sakamoto Ryouma","originalBattleName":,"Sakamoto Ryouma","classId":,3,"className":,"lancer","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
@@ -2384,7 +2386,7 @@
 ,2,"Conversation 10","Gareth! Ahhh, I want to take you home!\nI want to hug and squeeze you! Come on, squeeze!",
 ,2,"value":,1306,"valueList":,105400,303900
 ,2,"Conversation 11","Okay, what's the first thing you do when you come back from Rayshifting?\nHave you forgotten what Miss Nightingale told you to do?\nThat's right! Wash your hands and gargle. Good, you're so wonderful!",
-,2,"value":,1133,"valueList":,105100,201800,202700,203500,204200,302600,302700,401500,403500,403700,404200,500400,502800,504100,600500,700900,702800,901200,1000800,2500100,2500500,2500700
+,2,"value":,1133,"valueList":,105100,201800,202700,203500,204200,302600,302700,401500,403500,403700,404200,500400,502800,504100,600500,700900,702800,901200,1000800,2500100,2500500,2500700,2800400
 ,1,"Conversation 12","Wow, so you're a king? You don't look like one!\nNo, no, I mean it in a good way.\nOh, do you want to eat something? Want me to bake you a galette?",
 ,1,"value":,403900,"valueList":,
 ,1,"Conversation 13","Oh Emiya. Glad I ran into you.\nWant to go to the basement together? I was thinking of picking out ingredients for dinner tonight.",
@@ -2414,7 +2416,7 @@
 ,2,"Conversation 4","Cú Chulainn. The man I could not subdue.\nEven right now as he appears in front of me,\nhe still wouldn't become mine...",
 ,2,"value":,1010,"valueList":,300100,502100,702000
 ,2,"Conversation 6","I love generous, fearless heroes who don't get jealous!\nThey do exist, right? Summon one for me right now!",
-,2,"value":,1007,"valueList":,101400,103200,103600,104300,105200,200200,201100,201400,203000,203100,203300,300400,301000,304200,304700,400200,401200,402300,402900,403800,404700,700500,700600,700800
+,2,"value":,1007,"valueList":,101400,103200,103600,104300,105200,200200,201100,201400,203000,203100,203300,300400,301000,304200,304700,400200,401200,402300,402900,403800,404700,404900,700500,700600,700800
 ,"id":,401400,"collectionNo":,27,"name":,"Ushiwakamaru","originalName":,"Ushiwakamaru","ruby":,"Ushiwakamaru","battleName":,"Ushiwakamaru","originalBattleName":,"Ushiwakamaru","classId":,4,"className":,"rider","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,3,"cost":,7,"lvMax":,70,"extraAssets":,
 ,,"Conversation 1","My lord, we must depart.\nWe mustn't be lazy like animals!",
 ,,"Conversation 2","Of course, just like my brother, I will serve you until the end's of the earth.\nThat is, if it pleases you my lord.",
@@ -2761,11 +2763,11 @@
 ,1,"Conversation 10","You are the child of Apollo, which makes you my grandson.\nNow come, let me hug you! Come!",
 ,1,"value":,504300,"valueList":,
 ,2,"Conversation 11","All children born on the European continent, on the great land of Europa, are my descendants.\nWhat good children you all are!",
-,2,"value":,1180,"valueList":,100100,100200,100300,100500,100600,100700,100800,100900,101000,101300,101400,102000,102200,102600,102900,103100,103300,103400,103500,104100,104300,105000,105400,200300,200800,202300,202600,202800,203200,203400,203900,204300,300200,300300,300500,300900,302600,303600,303900,304700,304800,304900,305100,400200,400400,400600,401100,401300,401500,401700,401900,402200,402400,402500,402700,403600,403900,404200,404600,404700,500200,500400,500500,500700,500800,501000,501100,501400,502300,502600,502700,503200,503600,503800,504800,505000,600500,600700,601200,601300,601400,601700,603800,603900,700200,700400,700500,700700,701000,701400,701500,702000,703100,704000,704200,900400,901300,1001100,1100200,1100300,1100600,2501000,2800100,2800200,2800300
+,2,"value":,1180,"valueList":,100100,100200,100300,100500,100600,100700,100800,100900,101000,101300,101400,102000,102200,102600,102900,103100,103300,103400,103500,104100,104300,105000,105400,200300,200800,202300,202600,202800,203200,203400,203900,204300,300200,300300,300500,300900,302600,303600,303900,304700,304800,304900,305100,400200,400400,400600,401100,401300,401500,401700,401900,402200,402400,402500,402700,403600,403900,404200,404600,404700,500200,500400,500500,500700,500800,501000,501100,501400,502300,502600,502700,503200,503600,503800,504800,505000,600500,600700,601200,601300,601400,601700,603800,603900,700200,700400,700500,700700,701000,701400,701500,702000,703100,704000,704200,900400,901300,1001100,1100200,1100300,1100600,2501000,2800100,2800200,2800300,2800400
 ,2,"Conversation 12","What about any children born outside Europe, you ask?\nThey are...let's see...they are like my descendants' friends!\nCome, all! You're all sweeties!",
-,2,"value":,1181,"valueList":,101700,101800,102700,102800,103200,103600,103700,103900,104000,104400,104500,104600,104700,104800,104900,105100,105300,105500,200100,201000,201300,201400,201600,202100,202400,202500,202900,203600,203700,204000,204100,204200,204400,204500,204600,300600,301400,301700,302500,302700,302800,303200,303400,303500,303800,304000,304300,304400,305000,400100,400800,400900,401400,402300,402800,403000,403100,403200,403400,403500,404100,404400,404800,501200,501600,501800,501900,502200,502500,502800,503000,503400,503500,504000,504100,504200,504400,504600,504900,505100,505200,600100,600200,600300,600800,600900,601100,601500,601900,602100,602300,602500,602600,602700,602900,603000,603100,603200,603300,603400,603500,603600,604000,700300,700600,700800,701100,701300,701600,702200,702500,702600,702800,702900,703200,703400,703500,703600,703700,704100,704300,704400,900200,900600,901000,901200,901500,1000100,1000200,1000400,1000500,1000700,1000900,1001000,1001300,1001400,1100100,1100500,1100700,1101000,1101400,2300100,2300200,2500100,2500200,2500700
+,2,"value":,1181,"valueList":,101700,101800,102700,102800,103200,103600,103700,103900,104000,104400,104500,104600,104700,104800,104900,105100,105300,105500,200100,201000,201300,201400,201600,202100,202400,202500,202900,203600,203700,204000,204100,204200,204400,204500,204600,300600,301400,301700,302500,302700,302800,303200,303400,303500,303800,304000,304300,304400,305000,400100,400800,400900,401400,402300,402800,403000,403100,403200,403400,403500,404100,404400,404800,404900,501200,501600,501800,501900,502200,502500,502800,503000,503400,503500,504000,504100,504200,504400,504600,504900,505100,505200,600100,600200,600300,600800,600900,601100,601500,601900,602100,602300,602500,602600,602700,602900,603000,603100,603200,603300,603400,603500,603600,604000,604600,700300,700600,700800,701100,701300,701600,702200,702500,702600,702800,702900,703200,703400,703500,703600,703700,704100,704300,704400,900200,900600,901000,901200,901500,1000100,1000200,1000400,1000500,1000700,1000900,1001000,1001300,1001400,1100100,1100500,1100700,1101000,1101400,2300100,2300200,2500100,2500200,2500700
 ,2,"Conversation 13","Sooo cute!\nOh my, oh my! I cannot believe it!\nThey are all such lovely and adorable Heroic Spirits!\nOoh, I can't help but to squeeze them so tightly!\n...Oh dear. Giving them candy isn't enough!\nI'm going to borrow your kitchen for a bit! I'm going to make them many delicious things!",
-,2,"value":,1182,"valueList":,103700,104000,105100,105400,201800,202700,203500,204200,302600,302700,303900,304300,401500,403500,403700,404200,500400,500500,502800,504100,600500,603700,702600,702800,704400,901200,1000800,1001200,1100900,1101100,1101400,2500100,2500500,2500700
+,2,"value":,1182,"valueList":,103700,104000,105100,105400,201800,202700,203500,204200,302600,302700,303900,304300,401500,403500,403700,404200,500400,500500,502800,504100,600500,603700,702600,702800,704400,901200,1000800,1001200,1100900,1101100,1101400,2500100,2500500,2500700,2800400
 ,"id":,404100,"collectionNo":,291,"name":,"Murasaki Shikibu (Rider)","originalName":,"Murasaki Shikibu (Rider)","ruby":,"Murasaki Shikibu","battleName":,"Murasaki Shikibu","originalBattleName":,"Murasaki Shikibu","classId":,4,"className":,"rider","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","Come, let's go on a trip and do some research. What mysteries await us in modern day summer? I'm so excited...",
 ,,"Conversation 2","Yes...my appearance may have changed, but I am still the same. I am still your Servant, Murasaki Shikibu.\nMy librarian job is...well, is out on summer vacation. Let's leave it at that.",
@@ -2855,6 +2857,8 @@
 ,1,"value":,1001400,"valueList":,
 ,1,"Conversation 22","What a cute Taoist nun.\nDo you have any interest in the sage world?\n...Guess not.",
 ,1,"value":,505200,"valueList":,
+,1,"Conversation 22","Huang Feihu, it's been a while. Hm? You're saying that since you're humanity's shadow, you're technically not the real Huang Feihu? Don't worry about the small things.\nAnyway, let's start by having a drink. We'll go from there.",
+,1,"value":,404900,"valueList":,
 ,"id":,404400,"collectionNo":,332,"name":,"Dobrynya Nikitich","originalName":,"Dobrynya Nikitich","ruby":,"Dobrynya Nikitich","battleName":,"Dobrynya Nikitich","originalBattleName":,"Dobrynya Nikitich","classId":,4,"className":,"rider","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","Let’s go.\nWe're going to go somewhere.\nHurry up and get ready.",
 ,,"Conversation 2","Master and Servant.\nHm. Hmmm...\nHnnn...",
@@ -2884,7 +2888,7 @@
 ,1,"Conversation 7","Hey there Arash!\nIf you're done with work, let's go out for some beer!\nYeah!",
 ,1,"value":,201300,"valueList":,
 ,2,"Conversation 8","Hey, kid. Yeah, I'm talking to you, kid.\nDon't stay out too late. Come back before the sun sets.\nGot it? GOT IT???",
-,2,"value":,1259,"valueList":,201800,202700,203500,204200,302600,302700,401500,403500,403700,500400,502800,504100,600500,700900,702800,901200,1000800,2500100,2500500,2500700
+,2,"value":,1259,"valueList":,201800,202700,203500,204200,302600,302700,401500,403500,403700,500400,502800,504100,600500,700900,702800,901200,1000800,2500100,2500500,2500700,2800400
 ,2,"Conversation 9","You, from the kitchen. Got a minute?\nI want to know some food that'll be easy to make at camp...\nOh. Well thanks, I'll leave it to you.",
 ,2,"value":,1132,"valueList":,103700,200100,401100,505000,701600,702300
 ,2,"Conversation 10","Drinking with you all ain't bad, but...\nI just don't know how to explain it... Yeah...",
@@ -2912,7 +2916,7 @@
 ,,"Conversation 2","You're the prince holding the glass slipper, and I'm Cinderella, the lead. Which means, rather than us being in a Master and Servant relationship, we're like a...a c-c-c-couple! R-right???",
 ,,"Conversation 3","That's right. You and I are...are not connected by some contract, but rather through Halloween!",
 ,2,"Conversation 7","Oh. I see another Elisabeth coming over from the other side.\nHeh. I...\nWin! I'm obviously better than THAT ONE!",
-,2,"value":,1265,"valueList":,101000,300500,502600,1000400,1000500
+,2,"value":,1265,"valueList":,101000,300500,502600,1000400,1000500,2800400
 ,1,"Conversation 8","Heh. I'm more beautiful than all the other Elisabeths.\nHuh? The other Elisas all said the same thing?\n...Does that mean the great Elisabethian War is about to begin...?",
 ,1,"value":,300500,"valueList":,
 ,1,"Conversation 9","Oh? Why, if it isn't the green ranger of the forest. Good timing... Would you care to be the coachman for my carriage? I was a little concerned about leaving a mouse to be the coachman, to be honest.",
@@ -2987,6 +2991,26 @@
 ,2,"value":,1299,"valueList":,200100,202700
 ,2,"Conversation 18","I see that there are a handful of other Servants who, like me, have animal companions here in Chaldea. But I have to say Yatsufusa and I are the best pair! He's the biggest, cutest... Er...\nWell, he may not be the biggest... Cutest...may be up for debate...\nHe's comfortable to ride...no, sometimes I strain my back after riding him...\nOh come on, don't pout.\nAh I know! He's the best at gathering wild mountain plants! That's it! ",
 ,2,"value":,1300,"valueList":,105400,304900,403600,502100,1000800,1100500
+,"id":,404900,"collectionNo":,366,"name":,"Huang Feihu","originalName":,"Huang Feihu","ruby":,"Huang Feihu","battleName":,"Huang Feihu","originalBattleName":,"Huang Feihu","classId":,4,"className":,"rider","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
+,,"Conversation 1","My ox is begging to take a walk. Would you care to join us?",
+,,"Conversation 2","There's a saying that a sovereign must be righteous, while their subjects must never flee to a different nation.\nI am unsure if that is an appropriate statement. Have you ever thought of such a thing, Master? ",
+,,"Conversation 3","Though I may address myself as Prince Wucheng, I am a mere warrior and Servant. There's no need to hold back in giving me orders.",
+,2,"Conversation 7","Su Daji!!! Why, you...!",
+,2,"value":,1284,"valueList":,302400,500300,604200,701600,2500900
+,2,"Conversation 8","Sorry, but can I take a look at your sword?\nHm. It reminds me of something similar, but what could it be...?",
+,2,"value":,1273,"valueList":,200100,201600
+,2,"Conversation 9","This radiating beauty...the presence of a divine immortal...\nFrom where do you hail, O celestial one?",
+,2,"value":,1200,"valueList":,304400,603500
+,1,"Conversation 10","Ah, Nezha. You are here too! While he is but a shadow right now, you may one day be able to see Tianhua. If that happens, I'd be happy if you can be friends with him...and hold back on fighting, okay? ",
+,1,"value":,303100,"valueList":,
+,1,"Conversation 11","Why, if it isn't the minister! I never imagined I would be able to fight alongside you once more. I know how terrifying you are...both as an enemy and as an ally.\n...How reassuring.",
+,1,"value":,404300,"valueList":,
+,1,"Conversation 12","You are...Your Majesty!?\nNo, my apologies, I mistook you for someone else.",
+,1,"value":,1001200,"valueList":,
+,2,"Conversation 13","Hm. I thought I would be the only one, but I see there are other generals who have cows in tow.\nHa ha. Looks like my ox is enjoying himself.",
+,2,"value":,1327,"valueList":,400200,401300,402600,404000,702800,1001300
+,1,"Conversation 14","Hello, Lord William Tell.\nI was hoping we can exchange notes on how to raise sons. Of course, I'm not asking to do it for free. I have some good alcohol to share.",
+,1,"value":,203400,"valueList":,
 ,"id":,500100,"collectionNo":,31,"name":,"Medea","originalName":,"Medea","ruby":,"Medea","battleName":,"Medea","originalBattleName":,"Medea","classId":,5,"className":,"caster","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,3,"cost":,7,"lvMax":,70,"extraAssets":,
 ,,"Conversation 1","Should we not be getting a move on, then?",
 ,,"Conversation 2","As your Servant I should just follow your command, yes?",
@@ -3557,7 +3581,7 @@
 ,1,"Conversation 7","There's nothing to fret about. Ever since I changed into a swimsuit, I've had no animosity for Queen Marie. Hmmm, I do admit that feeling like that makes it complicated for me...\nHowever, there I can't deny the fact that she and I are here together and that we need to fight together. It's just that...\n...being fellow Casters...\n...gives me such mixed feelings!",
 ,1,"value":,502700,"valueList":,
 ,2,"Conversation 8","Your attention please, good boys and girls! It's time for a magic trick!\nNow take a good look at this silk hat. Lo and behold, a dove...\n...A dove...\nI-I-I-I mean, lo and behold, an angel appears!\nThere's absolutely no trickery here!\n...Where did that dove go?",
-,2,"value":,1254,"valueList":,103700,201800,202700,203500,204200,302500,302600,302700,303400,304300,401500,403500,500400,500500,502800,504100,505200,600500,602700,603700,700900,701300,702200,702600,702800,901200,1000800,1001200,1101100,1101400,2500100,2500500,2500600,2500700
+,2,"value":,1254,"valueList":,103700,201800,202700,203500,204200,302500,302600,302700,303400,304300,401500,403500,500400,500500,502800,504100,505200,600500,602700,603700,700900,701300,702200,702600,702800,901200,1000800,1001200,1101100,1101400,2500100,2500500,2500600,2500700,2800400
 ,1,"Conversation 9","Um...you're Semiramis, right?\nWhat? You saw one of my doves was wandering around, lost? I found a dove!!!\nThank you, thank you very much!",
 ,1,"value":,603200,"valueList":,
 ,1,"Conversation 10","Anastasia...\nI may be a simple town girl while she a grand duchess, but for some reason we get along. Perhaps it's because we share the same interests.",
@@ -3594,11 +3618,11 @@
 ,1,"Conversation 9","Oooh, Cat-senpai!\nI want to ask about this recipe...\nOh wait! Senpai!!!",
 ,1,"value":,701600,"valueList":,
 ,2,"Conversation 10","A child's job is...to eat a lot!\nGot it?\nPinky swear with me, okay?",
-,2,"value":,1270,"valueList":,105100,202700,203500,204200,302600,302700,303400,403500,403700,404200,500400,502800,504100,600500,702200,702600,702800,901200,1000800,1001200,2500100,2500500,2500700
+,2,"value":,1270,"valueList":,105100,202700,203500,204200,302600,302700,303400,403500,403700,404200,500400,502800,504100,600500,702200,702600,702800,901200,1000800,1001200,2500100,2500500,2500700,2800400
 ,2,"Conversation 11","Come on over, children!\nToday's menu is Chaldea-style curry rice!\nWow, I'm getting a really good response from this!\nCurry rice so is popular with children!",
-,2,"value":,1270,"valueList":,105100,202700,203500,204200,302600,302700,303400,403500,403700,404200,500400,502800,504100,600500,702200,702600,702800,901200,1000800,1001200,2500100,2500500,2500700
+,2,"value":,1270,"valueList":,105100,202700,203500,204200,302600,302700,303400,403500,403700,404200,500400,502800,504100,600500,702200,702600,702800,901200,1000800,1001200,2500100,2500500,2500700,2800400
 ,2,"Conversation 12","Today's snack is a specially made cake!\nCome on children, go wash your hands and come and get it!",
-,2,"value":,1270,"valueList":,105100,202700,203500,204200,302600,302700,303400,403500,403700,404200,500400,502800,504100,600500,702200,702600,702800,901200,1000800,1001200,2500100,2500500,2500700
+,2,"value":,1270,"valueList":,105100,202700,203500,204200,302600,302700,303400,403500,403700,404200,500400,502800,504100,600500,702200,702600,702800,901200,1000800,1001200,2500100,2500500,2500700,2800400
 ,1,"Conversation 13","Van Gogh, are you okay?\nAre you eating well?",
 ,1,"value":,2500600,"valueList":,
 ,1,"Conversation 14","The older witch... I-I mean, Scáthach-Skadi.\nI don't know why, but I'm inclined to call her Mother...",
@@ -3628,7 +3652,7 @@
 ,1,"Conversation 8","I finally understand how you feel, Xuanzang Sanzang. Swimsuits are surprisingly easy to move around in. If you want to prioritize mobility, I can understand why you would wear something like that on a normal basis.\nHm? You're not wearing a swimsuit?\nAre you...certain?",
 ,1,"value":,502200,"valueList":,
 ,2,"Conversation 9","This happened because I am a completely perfect empress. Children, I understand you might be envious, but wearing a swimsuit doesn't automatically let you grow up to be an adult. Don't feel rushed! Just work hard to better yourself!",
-,2,"value":,1317,"valueList":,202700,204200,302600,500400,502800,504100,600500,702600,702800,2500100,2500700
+,2,"value":,1317,"valueList":,202700,204200,302600,500400,502800,504100,600500,702600,702800,2500100,2500700,2800400
 ,2,"Conversation 10","Erice, was it? You say you are possessed by evil spirits? All right, sit there and show me your forehead.\n(Slap)\n...How do you feel!?\nNot working, huh? Seems like the evil spirits inside you are hard to deal with.\nI'll keep that in mind for future reference.",
 ,2,"value":,1308,"valueList":,304300,1101400
 ,1,"Conversation 11","As a thief, she makes her victims scream. The Taoist me makes ghosts scream. Heh. Our talents for torture are undiminished by our swimsuits.",
@@ -4038,7 +4062,7 @@
 ,,"Conversation 2","Since it's part of the contract, I'm going to stay here.\nThat's all this is, okay?",
 ,,"Conversation 3","The most useful tool that can be used to define a Master-Servant relationship...\nYou do know what it is, right?\nIt's love.",
 ,2,"Conversation 7","Don't get the wrong idea.\nI'm only in this form to comply with some nonsense about dee-sen-see...\nSo don't you dare treat me like those other child Servants.\n...Hey wait. I'm not saying that I DIDN'T want that piece of cake you're holding.",
-,2,"value":,1134,"valueList":,105100,202700,203500,204200,302600,302700,403500,403700,404200,500400,502800,504100,600500,702600,702800,901200,1001200,2500100,2500500,2500700
+,2,"value":,1134,"valueList":,105100,202700,203500,204200,302600,302700,403500,403700,404200,500400,502800,504100,600500,702600,702800,901200,1001200,2500100,2500500,2500700,2800400
 ,1,"Conversation 8","Oh, Ganesha.\nThis is a good opportunity for me to ask you something:, Do you resent your parents?\nIf you feel like you want revenge or you want them to suffer, I'll always be here for you to consult with.\n...Huh? Not really?\n...You're useless. ",
 ,1,"value":,2300300,"valueList":,
 ,,"Conversation 1","Should you be lounging around right now?\nYou're actually kind of a slob, aren't you, Master?",
@@ -4180,7 +4204,7 @@
 ,2,"Conversation 7","Big sister Bryndhild...\nI'm so happy just to be able to see you.\nMy sister...",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","Ah!\nMy automatic invitation mode is about to activate, Master!\nI sense the presence of a warrior... Ugh...\nI don't think I can resist, even in this Spirit Origin!",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 9","Sigurd!\nMrgh. Mrrrgh.\nGrrrrr!",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 10","Good day, Atli.\n...Yes. Yes.\nI will try. Thank you for the advice on managing my changed Spirit Origin.",
@@ -4197,7 +4221,7 @@
 ,2,"Conversation 7","Big sister Brynhild...\nI can't believe it...\nSeeing her in person is nothing like what I learned from synchronizing...!\nOh, sister...\nI'm getting a nosebleed...",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","I sense the presence of a warrior.\nEngaging automatic invitation.\n...I need to step away for a while, all right?",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 9","Sigurd...\nN-no, we don't dislike anything, really...\nHe's related to the Allfather, too.\n...Yeah. Yeah. Right.\nAh!\nHe's getting so close to Brynhild... Doesn't that hero have any sense of decorum!?\nMaster, can you go keep an eye on them?\nI'm going to cause an accidental discharge. For target practice.",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 10","Atli!\nBig sister Brynhild's big sister...\nI feel so nostalgic, yet sad... What is this feeling...?",
@@ -4215,7 +4239,7 @@
 ,2,"Conversation 7","Big sister Brynhild...\nShe's so beautiful, no matter what form she's in.\nHer amethyst eyes, haaah, so pretty...",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","Ah, there are warriors here!\nMy Valhalla invitation mode's going to automatically activate...\nStop me if there's trouble, okay?",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 9","That darn Sigurd...\nN-no, it's nothing. Really.",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 10","I like Atli.\nShe isn't one of us, that's for sure,\nbut she feels like a big sister, oddly enough...\nShe's so calming, so relaxing, you know?",
@@ -4230,7 +4254,7 @@
 ,2,"Conversation 7","Big sister Brynhild!\nAhh, just laying eyes on her is so...\nI'm going to get a nosebleed!\nA nosebleed!",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","Mrgh.\nAre there warriors nearby?\nThere are, aren't here?\nI'm going to go invite them, so I'll step away for a while. Off I go!",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 9","Sigurd!\nU-urgh...\nBut I shouldn't pick fights.\nI know that. Fighting is bad.\nBut, urgh,\ncan I take the safety off my gun...?",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 10","Atli! I know her!\nShe's big sister Brynhild's big sister!\nSo she's our extra-big sister!\nWow...",
@@ -4246,7 +4270,7 @@
 ,2,"Conversation 7","Sister Brynhild...\nShe's always so beautiful...\nAhhh...",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","I sense a warrior.\nMy automatic invitation mode is about to activate, but...\nWould you like me to turn it off, Master?",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 9","Sigurd, step away from my big sister.\nStep. Away.\nMaster, I request permission to engage in combat.",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 10","Atli...!\nEr, um, good day to you.",
@@ -4261,7 +4285,7 @@
 ,2,"Conversation 7","Sister Brynhild!\nSh-she's really here...\nAmazing... Even in profile, she's so pretty...\nThanks, Master. Thank you so much.\nHaaah. I'm going to get a nosebleed...\nIt's going to take time to get used to this...",
 ,2,"value":,1202,"valueList":,301200,703800
 ,2,"Conversation 8","I've detected a warrior.\nAh, my automatic invitation mode is about to activate...\nWhat should I do... (Fidgets)",
-,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200
+,2,"value":,1092,"valueList":,100700,100800,101200,101300,101400,101900,102000,102200,102900,103200,103300,103500,103600,103800,104300,105000,105200,105400,200100,200300,201100,201300,201400,203100,203300,203400,203500,203700,203800,204500,204600,300100,300200,300400,300600,301400,303500,303600,303900,304700,304800,305100,400200,400600,401200,401400,402300,402900,403000,403100,403400,403700,403800,403900,404200,404300,404400,404700,404900,501000,501500,501600,501800,501900,502100,600700,601500,602500,602600,603400,604600,700600,700700,700800,702000,1000700,1100600,1101000,2500300,2800200,2800400
 ,1,"Conversation 9","Sigurd's here, right?\nOh, there he is.\nHm...\nCan I take the shot, Master?",
 ,1,"value":,103300,"valueList":,
 ,2,"Conversation 10","Atli...\nYeah. I know who she is because I'm synced with Thrúd and the others.\nOur big sister's big sister...",
@@ -4270,6 +4294,29 @@
 ,2,"value":,1322,"valueList":,503900,901400
 ,1,"Conversation 12","SPIRIT ORIGIN EROSION DETECTED. ACTIVATING AUTOMATED DEFENSES.\n...Huh? Did something happen?\nOh, it's Ashiya Douman. He snuck some malicious data in, so I purged it.\nWe're all good now.",
 ,1,"value":,1001000,"valueList":,
+,"id":,604600,"collectionNo":,365,"name":,"Huyan Zhuo","originalName":,"Huyan Zhuo","ruby":,"Huyan Zhuo","battleName":,"Huyan Zhuo","originalBattleName":,"Huyan Zhuo","classId":,6,"className":,"assassin","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
+,,"Conversation 1","Master, it's time to head out to battle.",
+,,"Conversation 2","Master and Servant relationship...\nI simply move for Master's sake, while Master believes in me. That's the ideal.",
+,,"Conversation 3","I believe we've formed an ideal relationship. At least, I think.",
+,1,"Conversation 7","Oh it's you, Yan Qing. As fellow martial heroes from Mount Liang, we should do our best.\nWhy am I a woman?\n...Don't sweat the details.",
+,1,"value":,602600,"valueList":,
+,1,"Conversation 8","James Moriarty... It's no exaggeration that I was born because of you.\nBut at the same time, I was able to discover a new sense of desire I wouldn't have experienced had I been the original Huyan Zhuo.\n...I guess I should be thankful...",
+,1,"value":,202300,"valueList":,
+,,"Conversation 1","Please call me up whenever you go out to battle.\nHuyan Zhuo is all about swift preparations.",
+,,"Conversation 2","Master, I'm one of your precious Servants to you, correct? Please do not think of me as something to just toss aside. Heh heh, thank you very much!",
+,,"Conversation 3","Master is an extremely important sponsor to me. As long you sing praises of me, I will be over the moon.",
+,1,"Conversation 7","Ahhh...ah! That damned Servant who stole my position as a staple character! Had things gone as planned under normal circumstances, I would have made my glorious debut as the Assassin of Shinjuku!\nHow aggravating! Curse that Yan Qing!\nHuh? Who am I? I'm Huyan Zhuo.\nI see you're at a loss for words. I don't blame you.",
+,1,"value":,602600,"valueList":,
+,1,"Conversation 8","I'm sure I would have been more helpful. Don't you agree, Professor? I'm stronger and cuter. Right, Professor?\nProfessor? Look at me! Can't you see how hurt I am?\nProfessor!!!",
+,1,"value":,202300,"valueList":,
+,2,"Conversation 11","Someone important from my country! I prostrate myself to you all!\nI don't need any reward from you...I just want words of encouragement! And please also put in a good word of me to Master!",
+,2,"value":,1326,"valueList":,505200,602700,900600,2500400
+,1,"Conversation 12","Jing Ke, the brilliant and handsome Assassin? Aw crap, we're pretty much the same character! Huh? This Jing Ke is an arrogant and drunkard Assassin?\nWell that's a relief...we're not similar at all. Heh heh heh.\nHuh? But you think she's cool? Listen, Master. Did you know we call people like you unfaithful?",
+,1,"value":,601100,"valueList":,
+,1,"Conversation 13","Why, if it isn't Huang Feihu. I'm glad to see you handsome as ever. Then again, I'm more cool!\n...It's nice that your family are still close with each other, too.\n...But I'm still more cute and awesome, you know!?",
+,1,"value":,404900,"valueList":,
+,1,"Conversation 14","The Minute Star, the Nine-Tattooed Dragon...or rather, Elly the Nine-Tattooed Dragon. I apologize for such unsightly behavior during Halloween. So...unpleasant...(cough)\nI-I'm sorry for springing this on you, but would you please praise me? It could be about anything.\n(Whew) That comforts me...I feel satisfied...",
+,1,"value":,2800400,"valueList":,
 ,"id":,700100,"collectionNo":,47,"name":,"Heracles","originalName":,"Heracles","ruby":,"Heracles","battleName":,"Heracles","originalBattleName":,"Heracles","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","Grraauuuughhh!",
 ,,"Conversation 3","Urrrrrgh...",
@@ -4388,7 +4435,7 @@
 ,2,"Conversation 10","Excuse me.\nI would like to speak to the person in charge of kitchen sanitation.\nYes, yes...\nUnderstood. Thank you.",
 ,2,"value":,1132,"valueList":,103700,200100,401100,505000,701600,702300
 ,2,"Conversation 11","What are you supposed to do when you return from a Rayshift?\nAnd your answer is...?\nThat's right. Wash your hands! And gargle!\nDo you understand?",
-,2,"value":,1133,"valueList":,105100,201800,202700,203500,204200,302600,302700,401500,403500,403700,404200,500400,502800,504100,600500,700900,702800,901200,1000800,2500100,2500500,2500700
+,2,"value":,1133,"valueList":,105100,201800,202700,203500,204200,302600,302700,401500,403500,403700,404200,500400,502800,504100,600500,700900,702800,901200,1000800,2500100,2500500,2500700,2800400
 ,"id":,701500,"collectionNo":,57,"name":,"Eric Bloodaxe","originalName":,"Eric Bloodaxe","ruby":,"Eric Bloodaxe","battleName":,"Eric","originalBattleName":,"Eric","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,2,"cost":,4,"lvMax":,65,"extraAssets":,
 ,,"Conversation 1","Let's go!",
 ,,"Conversation 2","Gaaaah!",
@@ -5302,6 +5349,7 @@
 ,,"Conversation 9","Younger brother? Himiko's younger brother?\nI do remember he treated me very well back then. He was thoughtful and calm, and it was hard to believe that he was related to her. \nOh well, he was nothing more than Himiko's brother, you know.",
 ,1,"Conversation 10","Future, Future. Could that be Morgan? Oh, I knew it.\nI'd heard rumors, but she really does have this aura of incredible power... I can sense it even when I'm just watching her at a distance. One of these days I hope to get a lesson in foreign magecraft, like from a Morgan class or something.",
 ,1,"value":,704000,"valueList":,
+,,"Conversation 11","The king of Kunakoku...sword of beasts...Kukochihiko.\nA lot of things happened with him, but I'm glad I was able to speak to him one last time. I suppose an encounter like that is one of the benefits as a Servant.",
 ,1,"Conversation 12","Oh, Rikyu. I have a favor to ask you. I would like you to make a drink called a matcha latte...\nHey wait. What's wrong? I thought you were supposed to be an expert in tea?",
 ,1,"value":,704400,"valueList":,
 ,1,"Conversation 13","I was thinking about this the whole time, but you are both fleeting and faint, Yamanami. Well, I'm not just talking about your presence...\nBut everything?",
@@ -5354,6 +5402,8 @@
 ,1,"value":,501100,"valueList":,
 ,2,"Conversation 7","I have no special feelings about Carmilla.\nShe is a foolish woman who not only took the lives of her citizens, but also the lives of noble girls.\n...I hear that she tormented by her deeds, but her sins are what they are.\nI'm sure she will receive the proper punishment one of these days.",
 ,2,"value":,1162,"valueList":,403600,601700
+,1,"Conversation 9","Oh, so another new Elisabeth has come...\nCome again? Why, yes. I am distinctly different from the other Elisabeth Báthorys because...\n...Do not knock on my body, please. You may be a child, but you are still a noblewoman. Have some decency.  ",
+,1,"value":,2800400,"valueList":,
 ,"id":,1000500,"collectionNo":,191,"name":,"Mecha Eli-chan Mk.II","originalName":,"Mecha Eli-chan Mk.II","ruby":,"Mecha Eli-chan Mk.II","battleName":,"Mecha Eli-chan Mk.II","originalBattleName":,"Mecha Eli-chan Mk.II","classId":,10,"className":,"alterEgo","type":,"normal","flag":,"ignoreCombineLimitSpecial","flags":,[,"ignoreCombineLimitSpecial",],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","You don't have anything to do? Then go collect some materials. Then use them to enhance me.",
 ,,"Conversation 2","I understand the Master and Servant relationship.\nHowever, I have autopilot mode, so I do not truly require a pilot.",
@@ -5366,6 +5416,8 @@
 ,1,"value":,1000100,"valueList":,
 ,1,"Conversation 7","Is that the tyrant Nero?\nHmmm...so that theatrical costume is just an attachable armor piece...\nStage...concert...ultrasonic...\nI sense that all things I deemed unnecessary and shed may actually all have immeasurable potential!",
 ,1,"value":,503200,"valueList":,
+,1,"Conversation 9","Uh-huh. So you're Elisa the Nine-Tattooed Dragon, the new Elisabeth. You're interested in MY body, rather than Mk.I's? I like you. You have good taste for an Elisabeth. Well, you seem to be leaning towards pastel colors right now, but one day you'll realize the beauty and eloquence of monochrome armor.",
+,1,"value":,2800400,"valueList":,
 ,"id":,1000700,"collectionNo":,209,"name":,"Okita Souji (Alter)","originalName":,"Okita Souji (Alter)","ruby":,"Okita Souji (Alter)","battleName":,"Okita Souji (Alter)","originalBattleName":,"Okita Souji (Alter)","classId":,10,"className":,"alterEgo","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,,"Conversation 1","Is something happening? I hope I can join in...",
 ,,"Conversation 2","Originally, my Spirit Origin was supposed to manifest only once.\nSo that means I wasn't fated to have a Master, either. And in that sense, I'm really grateful that I was able to form a contract with you. Truly.",
@@ -5605,8 +5657,8 @@
 ,2,"value":,1283,"valueList":,202000,401800,402600,900700
 ,2,"Conversation 12","That fox is giving me bad vibes. I don't want to get near her.",
 ,2,"value":,1284,"valueList":,302400,500300,604200,701600,2500900
-,1,"Conversation 13","Hm? Have we met? I feel like I should keep my distance, but then again they seem so reliable...\nUnnngh, I don't know!",
-,1,"value":,404300,"valueList":,
+,2,"Conversation 13","Hm? Have we met? I feel like I should keep my distance, but then again they seem so reliable...\nUnnngh, I don't know!",
+,2,"value":,1328,"valueList":,404300,404900
 ,"id":,1001300,"collectionNo":,339,"name":,"Super Bunyan","originalName":,"Super Bunyan","ruby":,"Super Bunyan","battleName":,"Super Bunyan","originalBattleName":,"Super Bunyan","classId":,10,"className":,"alterEgo","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,,"Conversation 1","Master, are you prepared to head out to fight? Make sure to put safety first and be careful not to get hurt!\nOkay, good luck!",
 ,,"Conversation 2","As a leader who has been loved by many, I'm going to raise you to be one of the best leaders there is! So go ahead and call me \"Supervisor\" or \"Director,\" okay?",
@@ -5627,7 +5679,7 @@
 ,1,"Conversation 11","That lion person's president too? Hm. I don't know what it is, but when I see him, this indescribable feeling of anger starts to bubble up inside me...\nSomething inside me is whispering to get revenge on him... Is this coming from Rider?",
 ,1,"value":,502500,"valueList":,
 ,2,"Conversation 12","I-I'm not a child, so I don't play with the kiddos!\nI was playing with them for THEIR sake!",
-,2,"value":,1288,"valueList":,105100,202700,203500,204200,302600,302700,403500,403700,404200,500400,502800,504100,600500,702600,901200,1001200,2500100,2500500,2500700
+,2,"value":,1288,"valueList":,105100,202700,203500,204200,302600,302700,403500,403700,404200,500400,502800,504100,600500,702600,901200,1001200,2500100,2500500,2500700,2800400
 ,,"Conversation 14","Rider:, Don't think this means I'm satisfied. I may have appeared in this incomplete form, but I just came so we can get acquainted. One of these days, I'm going to get summoned all on my own and make a big splash, so look forward to that!",
 ,,"Conversation 15","Assassin:, What the hell!? Why would a great hero like me get summoned in an incomplete form!? I don't get it... Where is my shortcoming!? Don't think you can get away with this! You're going to pay for this slip-up!",
 ,"id":,1001400,"collectionNo":,352,"name":,"Xu Fu","originalName":,"Xu Fu","ruby":,"Xu Fu","battleName":,"Xu Fu","originalBattleName":,"Xu Fu","classId":,10,"className":,"alterEgo","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,3,"cost":,7,"lvMax":,70,"extraAssets":,
@@ -5659,7 +5711,7 @@
 ,1,"Conversation 4","Oh-ho? There is another who has materialized as an Avenger.\nI despise human nature, he laughs at it...\nI see. People are inexplicable.",
 ,1,"value":,1100100,"valueList":,
 ,2,"Conversation 5","There's another Extra Class here... Interesting.",
-,2,"value":,1005,"valueList":,900100,900200,900400,900500,900600,900700,900800,900900,901000,901100,901200,901300,901400,901500,1000100,1000200,1000300,1000400,1000500,1000700,1000800,1000900,1001000,1001100,1001200,1001300,1001400,1100300,1100400,1100500,1100600,1100700,1100900,1101000,1101100,1101200,1101400,2300100,2300200,2300300,2300400,2300500,2500100,2500200,2500300,2500400,2500500,2500600,2500700,2500800,2500900,2501000,2800100,2800200,2800300
+,2,"value":,1005,"valueList":,900100,900200,900400,900500,900600,900700,900800,900900,901000,901100,901200,901300,901400,901500,1000100,1000200,1000300,1000400,1000500,1000700,1000800,1000900,1001000,1001100,1001200,1001300,1001400,1100300,1100400,1100500,1100600,1100700,1100900,1101000,1101100,1101200,1101400,2300100,2300200,2300300,2300400,2300500,2500100,2500200,2500300,2500400,2500500,2500600,2500700,2500800,2500900,2501000,2800100,2800200,2800300,2800400
 ,2,"Conversation 6","There's an artist-type Caster here.\nVery well.\nWaiter, bring him a coffee!",
 ,2,"value":,1006,"valueList":,500500,500700
 ,1,"Conversation 7","Who is he?\nAh, I see...\nNapoleon Bonaparte. So that emperor has finally manifested.\nI won't meet with him right now.\nBut one of these days...",
@@ -6506,7 +6558,7 @@
 ,1,"Conversation 11","I don't believe this... I never imagined I'd ever get a chance to meet the King of Conquerors at that age...\nNow hold on, Alexander! That's enough of the Protection of Zeus for now!",
 ,1,"value":,401500,"valueList":,
 ,2,"Conversation 12","I see...so that's what the other Pretender is like...",
-,2,"value":,1278,"valueList":,2800100,2800300
+,2,"value":,1278,"valueList":,2800100,2800300,2800400
 ,1,"Conversation 14","The name Emiya does ring a bell to me.\nThe circumstances may be different, but you were called Faker at one point too.",
 ,1,"value":,200100,"valueList":,
 ,1,"Conversation 15","Albion? You're THAT Albion?\nHow is it possible for a giant labyrinth I once traveled through to turn into a Tam Lin?\nOh, I see... I guess that would make it possible...",
@@ -6536,6 +6588,29 @@
 ,2,"value":,1014,"valueList":,100700,100900,101200,102000,105400,200800,303900,304700,402400,700200
 ,2,"Conversation 10","So that's...the last Pendragon of this world.\nHm? Are we related?\nNo, no. I'm from the same paradise as my big brother, Merlin, but that's all.\nPersonally...I might say that of all people in the world, I have the least to do with her.\nI'm well aware of that.",
 ,2,"value":,1305,"valueList":,100100,100200,100300,202600,301900,302000,402200,402700,900900
+,"id":,2800400,"collectionNo":,367,"name":,"Elisa the Nine-Tattooed Dragon","originalName":,"Elisa the Nine-Tattooed Dragon","ruby":,"Elisa the Nine-Tattooed Dragon","battleName":,"Elisa the Nine-Tattooed Dragon","originalBattleName":,"Elisa the Nine-Tattooed Dragon","classId":,28,"className":,"pretender","type":,"normal","flag":,"ignoreCombineLimitSpecial","flags":,[,"ignoreCombineLimitSpecial",],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
+,,"Conversation 1","Come on, big brother!\nGo outside!",
+,,"Conversation 1","Come on, big sister!\nGo outside!",
+,,"Conversation 2","Master and Servant?\nUmm, I don't really get it!\nBut I'm Elisa the Nine-Tattooed Dragon, so they sound really strong and smart!",
+,,"Conversation 3","Big brother?\nYeah, I really like you! You play with me a lot!\nLike Song Jiang from Mount Liang!",
+,,"Conversation 3","Big sister?\nYeah, I really like you! You play with me a lot!\nLike Song Jiang from Mount Liang!",
+,,"Conversation 3","Leader? Yeah, I really like you!\nYou play with me a lot!\nLike Song Jiang from Mount Liang!",
+,1,"Conversation 7","Yan Qing! Yan Qing!\nIt's me! Remember me?\nYou don't?\nAw, I guess you wouldn't!\nI'm the Leader Star, Elisa the Nine-Tattooed Dragon! I bet you remember now!\nI'm starting Mount Liang again! Let's both give it all we got, Yan Qing!",
+,1,"value":,602600,"valueList":,
+,1,"Conversation 8","It's Huyan Zhuo!\n...Huh? Were you always like that?\nWhatever! I'm Elisa the Nine-Tattooed Dragon!\nGood luck to those of us invited by the heavenly stars!\nHuh? You want compliments?\nUm... There there, good girl.\nIs that okay? It is?",
+,1,"value":,604600,"valueList":,
+,1,"Conversation 9","It's Jing Ke! That 'tude makes you a perfect fit for Mount Liang!\nThe 109th seat is open just for you!\nOh, but I think you should stop going out for drinks!\nI don't really get it, but apparently people like to drug wine with numbing stuff!",
+,1,"value":,601100,"valueList":,
+,2,"Conversation 10","Carmilla! You're me as a grown-up!\nMy name is Elisa the Nine-Tattooed Dragon!\nHm? Why'd you scream? Why are you looking for medicine?\nStomach? Huh? Your tummy hurts?\nStress? Grown-ups have it tough!",
+,2,"value":,1162,"valueList":,403600,601700
+,1,"Conversation 11","So you're Elisabeth Báthory!\nI'm Elisa the Nine-Tattooed Dragon! That makes me a little different from you!\nHuh? There's plenty of us that are just a little different?\nThere's a lot of us? Why? You don't know?\nHmm... So you're saying...that Elisa has unlimited potential! I get it now!",
+,1,"value":,300500,"valueList":,
+,2,"Conversation 12","You're all Elisabeth Báthory, too!\nHuh? You didn't expect this? An angle you never thought of?\nHmm, I don't really get it, but I'm glad I surprised you!",
+,2,"value":,1078,"valueList":,101000,404600,502600
+,1,"Conversation 13","You're an Elisabeth Báthory, too!\nBut you seem different from the other Elisas somehow... Hmm...\nAh! You're hard! Like a rock!\nSo this is what gym people mean by \"hard body!\"",
+,1,"value":,1000400,"valueList":,
+,1,"Conversation 14","You're Mecha Eli-chan...right? Oh, no!\nThey forgot to paint you! You need to put on some makeup!\nIt's like how people say a noble princess needs to know how to carry herself! I don't really get it, though!\nHuh? It's not necessary? You're already perfect?\nOh, okay... Glad to hear that!",
+,1,"value":,1000500,"valueList":,
 ,"id":,9935400,"collectionNo":,149,"name":,"Tiamat","originalName":,"Tiamat","ruby":,"Tiamat","battleName":,"Tiamat","originalBattleName":,"Tiamat","classId":,20,"className":,"beastII","type":,"enemyCollectionDetail","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,"id":,9935500,"collectionNo":,151,"name":,"Goetia","originalName":,"Goetia","ruby":,"Goetia","battleName":,"Goetia","originalBattleName":,"Goetia","classId":,22,"className":,"beastI","type":,"enemyCollectionDetail","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,0,"lvMax":,100,"extraAssets":,
 ,"id":,9935530,"collectionNo":,152,"name":,"Solomon","originalName":,"Solomon","ruby":,"Solomon","battleName":,"King Solomon","originalBattleName":,"King Solomon","classId":,5,"className":,"caster","type":,"enemyCollectionDetail","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
