@@ -87,5 +87,6 @@ int main(int argc, char *argv[]){
 	}
 	fclose(fp);
 	fclose(ofp);
+	free(buffer);
     return 0;
 }
