@@ -157,7 +157,7 @@
 ,1,"Conversation 18","Ah...Lady Murasaki Shikibu...\nYou certainly look good today.\nHm, a widowed librarian Caster, as elegant as ever.",
 ,1,"value":,504200,"valueList":,
 ,2,"Conversation 19","Do you have a moment, lovely lady passing my way?\nIf you have some time to spare, would you care to spend it with me?\nIn modern terms, you'd call what I'm doing hitting on women.",
-,2,"value":,1187,"valueList":,101700,102800,103400,103900,104500,104600,105000,200500,202100,202500,202800,203700,203900,204300,204500,301200,301300,301900,302000,302400,302800,302900,303500,303800,304100,304400,304600,305300,400100,400300,400900,401100,401300,401800,401900,403600,404000,404100,404400,404500,404800,500100,500300,500900,501200,502000,502200,502300,503000,503400,503900,504200,504600,505200,600300,601100,601400,601700,602400,602800,603000,603200,603500,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,703800,703900,704000,704200,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,1101500,2300300,2300400,2300500,2500200,2500300,2500400,2500900,2501000,2800300,2800500
+,2,"value":,1187,"valueList":,101700,102800,103400,103900,104500,104600,105000,200500,202100,202500,202800,203700,203900,204300,204500,301200,301300,301900,302000,302400,302800,302900,303500,303800,304100,304400,304600,305300,400100,400300,400900,401100,401300,401800,401900,403600,404000,404100,404400,404500,404800,500100,500300,500900,501200,502000,502200,502300,503000,503400,503900,504200,504600,505200,600300,601100,601400,601700,602400,602800,603000,603200,603500,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,703800,703900,704000,704200,704300,900400,900700,900800,900900,901100,901400,901600,1000300,1001100,1100400,1100700,1101000,1101500,2300300,2300400,2300500,2500200,2500300,2500400,2500900,2501000,2501100,2800300,2800500
 ,2,"Conversation 20","Ah, hello, pharaoh.\nI must thank you for always taking care of my Cleopatra.",
 ,2,"value":,1186,"valueList":,400200,401200,501200,602800,1101500
 ,1,"Conversation 21","This gushing, overflowing feeling of Rome...\nGreat Romulus! But no, your current appearance is that of the god Quirinus!\n(Gasp)\nYes...you may say that I must \"acknowledge\"...but...\nI beg of you! Please...please, only until Master saves Humanity!",
@@ -489,7 +489,7 @@
 ,,"Conversation 2","Pollux:, Brother.\nCastor:, I'm not going to say it.\nPollux:, Brother...\nCastor:, I'm not saying it. I'm not going to lower myself to address a mere human as \"Master!\" \nHahahahaha! That's a good joke!\nPollux:, Oh, Brother...",
 ,,"Conversation 3","Castor:, Let's form a contract. But there will be no Master-Servant relationship here. Don't get the wrong idea, human.\nPollux:, Let's get along, Master.\nCastor:, Pollux!",
 ,2,"Conversation 7","Castor:, The Gemini?\nPollux:, Oh, that's our Roman name, Brother.\nCastor:, Oh that's right. It doesn't sound too bad.\nPollux:, Do you like it?\nCastor:, I didn't say I liked it.",
-,2,"value":,1195,"valueList":,100500,100600,101300,105200,301000,304200,503200,700500,701000,900800,901100
+,2,"value":,1195,"valueList":,100500,100600,101300,105200,301000,304200,503200,700500,701000,900800,901100,901600
 ,2,"Conversation 8","Castor:, Sister, we joined in some adventures aboard that ship, didn't we?\nPollux:, Yes we did, Brother. Heracles was indeed a great soldier.\nCastor:, He sure was... Wait a minute. Have you been meeting up with Heracles without me?\nPollux:, You have the wrong idea. I'll kill you, Brother.",
 ,2,"value":,1196,"valueList":,103800,200500,304100,404500,500100,501700,504300,700100,703000
 ,2,"Conversation 9","Castor:, There's no way I'll protect humans.\nPollux:, No, we shall. They are in dire need of our protection.\nCastor:, I don't care what happens to humans.\nPollux:, We will protect them.\nCastor:, I don't care what happens...\nPollux:, I am saddened when humans die.\nCastor:, Why's that?\nPollux:, Because you were once human too.\nCastor:, ...",
@@ -1489,7 +1489,7 @@
 ,,"Conversation 2","I am the queen of a defeated army. \nBut that is exactly why there are things that can be done now. There is an unwavering will and a wish to be granted.\nAll I ask from you is that you believe in these things...",
 ,,"Conversation 3","Augustus is the name the Roman emperor used, but the word comes from Latin, meaning \"one with dignity, magnificent.\"\nThat is why I believed those who were worthy had the right to call themselves Augustus. And it is why I had my son use that title...\nAnd so, I believe you are the Augustus of Chaldea, Master.",
 ,2,"Conversation 7","Hmph. There are quite a lot of Romans around here.\nI just hope they are not so weak as Valerian or foolish as Gallienus...",
-,2,"value":,1264,"valueList":,100500,100600,101300,105200,301000,304200,404700,503200,701000
+,2,"value":,1264,"valueList":,100500,100600,101300,105200,301000,304200,404700,503200,701000,901600
 ,1,"Conversation 8","Is that...Spartacus the gladiator!?\nHe is the greatest warrior one could wish for! I wonder if he would join our army?",
 ,1,"value":,700500,"valueList":,
 ,1,"Conversation 9","The shadow prefect...?\nAh, it is very important to have someone to maintain the standards of decency and morality in a nation or army. If there is anything I can do to hel―\nWait. She is charging towards me with such intensity! Why!?",
@@ -1623,15 +1623,15 @@
 ,2,"value":,1112,"valueList":,103500,300200
 ,,"Conversation 5","You have so many beautiful Servants...\nBut I mustn't. My beauty coupled together with theirs would only invite a tragic fate to befall us...",
 ,2,"Conversation 6","How beautiful...\nWhat a lovely maiden. I can see why she left a mark on history.\nOh no, no, no. This is no good.\nA damsel mustn't be left out on her own in danger, and any knight who permitted this to happen would surely have his reputation tarnished.\nAnd so, Master...\nI shall go fulfill my knightly duties... Understood?",
-,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,305300,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,1101500,2300400,2300500,2500200,2500300,2500900,2800200,2800300,2800500
+,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,305300,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,1101500,2300400,2300500,2500200,2500300,2500900,2501100,2800200,2800300,2800500
 ,2,"Conversation 7","How beautiful...\nWhat a lovely maiden. I can see why she left a mark on history.\nOh no, no, no. This is no good.\nA damsel mustn't be left out on her own in danger, and any knight who permitted this to happen would surely have his reputation tarnished.\nAnd so, Master...\nI shall go fulfill my knightly duties... Understood?",
-,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,305300,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,1101500,2300400,2300500,2500200,2500300,2500900,2800200,2800300,2800500
+,2,"value":,1188,"valueList":,100500,100600,101700,102600,103400,104600,105000,200500,202500,202800,203700,203900,204300,301300,301900,302000,302400,302800,302900,303500,303600,303800,304100,304600,305300,400100,400300,400900,401300,401800,401900,404100,404500,404800,500300,500900,501200,502200,502300,503000,503200,503300,503900,504000,504200,504600,505200,600300,601100,601400,602100,602400,602800,603000,604100,604200,604600,701400,701600,702300,702700,703000,703400,703600,703700,704000,704300,900400,900700,900800,900900,901100,901400,1000300,1001100,1100400,1100700,1101000,1101500,2300400,2300500,2500200,2500300,2500900,2501100,2800200,2800300,2800500
 ,1,"Conversation 8","It's been a while since I've seen that sword...Diarmuid the knight.",
 ,1,"value":,103500,"valueList":,
 ,1,"Conversation 9","So you are the rumored King Fergus...or rather, Sir Fergus.\nIt seems we never run out of things to talk about!\nNow come, hand me your goblet!",
 ,1,"value":,101400,"valueList":,
 ,2,"Conversation 10","Ah...what a lovely maiden...\nOh...I beg your pardon.\nIt's nothing, my lady.\nI hope you have a wonderful day.",
-,2,"value":,1189,"valueList":,103900,104500,200900,202100,203200,204500,301200,304400,401100,401700,403600,404000,404400,404800,500100,501700,502000,502700,503400,600800,601700,603200,603500,703800,703900,704200,900100,2300500,2500400
+,2,"value":,1189,"valueList":,103900,104500,200900,202100,203200,204500,301200,304400,401100,401700,403600,404000,404400,404800,500100,501700,502000,502700,503400,600800,601700,603200,603500,703800,703900,704200,900100,901600,2300500,2500400
 ,2,"Conversation 11","I sense some faeries.\nThey are both nostalgic and terrifying at the same time... But if they have manifested here in Chaldea, there shouldn't be any issue. \nEither way...Master, would you be kind enough to introduce them to me? Hahaha. Just as fellow knights, I promise you.",
 ,2,"value":,1242,"valueList":,105000,204300,304800,305300
 ,"id":,301200,"collectionNo":,88,"name":,"Brynhild","originalName":,"Brynhild","ruby":,"Brynhild","battleName":,"Brynhild","originalBattleName":,"Brynhild","classId":,3,"className":,"lancer","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
@@ -2539,7 +2539,7 @@
 ,1,"Conversation 8","What is it? Is there something on my face?\nI seem so saintly?\nN-no, that's not...\nUm...that was praise, right?\nRight!?",
 ,1,"value":,600100,"valueList":,
 ,2,"Conversation 9","Let us pray together...",
-,2,"value":,1121,"valueList":,203200,400600,404700,900100,900200,901100,1001500
+,2,"value":,1121,"valueList":,203200,400600,404700,900100,900200,901100,901600,1001500
 ,2,"Conversation 10","Oh, Marie? A tea party?\nThat sounds wonderful.\nWell, if it's not imposing, I would love to join you.",
 ,2,"value":,1123,"valueList":,203200,401700,502700,900100
 ,2,"Conversation 11","I will not.\nAbsolutely not!\nNot Lucha! I refuse!",
@@ -2794,7 +2794,7 @@
 ,1,"Conversation 10","You are the child of Apollo, which makes you my grandson.\nNow come, let me hug you! Come!",
 ,1,"value":,504300,"valueList":,
 ,2,"Conversation 11","All children born on the European continent, on the great land of Europa, are my descendants.\nWhat good children you all are!",
-,2,"value":,1180,"valueList":,100100,100200,100300,100500,100600,100700,100800,100900,101000,101300,101400,102000,102200,102600,102900,103100,103300,103400,103500,104100,104300,105000,105400,200300,200800,202300,202600,202800,203200,203400,203900,204300,300200,300300,300500,300900,302600,303600,303900,304700,304800,304900,305100,305300,400200,400400,400600,401100,401300,401500,401700,401900,402200,402400,402500,402700,403600,403900,404200,404600,404700,500200,500400,500500,500700,500800,501000,501100,501400,502300,502600,502700,503200,503600,503800,504800,505000,600500,600700,601200,601300,601400,601700,603800,603900,700200,700400,700500,700700,701000,701400,701500,702000,703100,704000,704200,900400,901300,1001100,1100200,1100300,1100600,2501000,2800100,2800200,2800300,2800400
+,2,"value":,1180,"valueList":,100100,100200,100300,100500,100600,100700,100800,100900,101000,101300,101400,102000,102200,102600,102900,103100,103300,103400,103500,104100,104300,105000,105400,200300,200800,202300,202600,202800,203200,203400,203900,204300,300200,300300,300500,300900,302600,303600,303900,304700,304800,304900,305100,305300,400200,400400,400600,401100,401300,401500,401700,401900,402200,402400,402500,402700,403600,403900,404200,404600,404700,500200,500400,500500,500700,500800,501000,501100,501400,502300,502600,502700,503200,503600,503800,504800,505000,600500,600700,601200,601300,601400,601700,603800,603900,700200,700400,700500,700700,701000,701400,701500,702000,703100,704000,704200,900400,901300,901600,1001100,1100200,1100300,1100600,2501000,2800100,2800200,2800300,2800400
 ,2,"Conversation 12","What about any children born outside Europe, you ask?\nThey are...let's see...they are like my descendants' friends!\nCome, all! You're all sweeties!",
 ,2,"value":,1181,"valueList":,101700,101800,102700,102800,103200,103600,103700,103900,104000,104400,104500,104600,104700,104800,104900,105100,105300,105500,200100,201000,201300,201400,201600,202100,202400,202500,202900,203600,203700,204000,204100,204200,204400,204500,204600,300600,301400,301700,302500,302700,302800,303200,303400,303500,303800,304000,304300,304400,305000,400100,400800,400900,401400,402300,402800,403000,403100,403200,403400,403500,404100,404400,404800,404900,501200,501600,501800,501900,502200,502500,502800,503000,503400,503500,504000,504100,504200,504400,504600,504900,505100,505200,600100,600200,600300,600800,600900,601100,601500,601900,602100,602300,602500,602600,602700,602900,603000,603100,603200,603300,603400,603500,603600,604000,604600,700300,700600,700800,701100,701300,701600,702200,702500,702600,702800,702900,703200,703400,703500,703600,703700,704100,704300,704400,900200,900600,901000,901200,901500,1000100,1000200,1000400,1000500,1000700,1000900,1001000,1001300,1001400,1001500,1100100,1100500,1100700,1101000,1101400,2300100,2300200,2500100,2500200,2500700,2800500
 ,2,"Conversation 13","Sooo cute!\nOh my, oh my! I cannot believe it!\nThey are all such lovely and adorable Heroic Spirits!\nOoh, I can't help but to squeeze them so tightly!\n...Oh dear. Giving them candy isn't enough!\nI'm going to borrow your kitchen for a bit! I'm going to make them many delicious things!",
@@ -2980,6 +2980,8 @@
 ,2,"value":,1294,"valueList":,100500,100600,101300,301000,503200,701000
 ,1,"Conversation 11","Lady Jeanne d'Arc! We lived in the same age, and so I would like to offer my utmost respect. Now, let us pray together. Pray not for yourself, but for someone else. I know you're the sort who can do that.",
 ,1,"value":,900100,"valueList":,
+,1,"Conversation 12","So you are Johanna. I am relieved. It seems like the memory of you only exists in my other self. Nevertheless, we are both devoted to the same God. If you are ever in trouble, you can tell me, and I will lend you my strength.",
+,1,"value":,901600,"valueList":,
 ,"id":,404800,"collectionNo":,349,"name":,"Kyokutei Bakin","originalName":,"Kyokutei Bakin","ruby":,"Kyokutei Bakin","battleName":,"Kyokutei Bakin","originalBattleName":,"Kyokutei Bakin","classId":,4,"className":,"rider","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,,"Conversation 1","Wha...are you going to go out!? Bring the palanquin around! Wait for a palanquin!",
 ,,"Conversation 2","A lord should simply act firm and proud as lords are expected to be. If that isn't possible...well, it's also polite to turn a blind eye.",
@@ -3501,7 +3503,7 @@
 ,1,"Conversation 14","Oh, hello Holmes.\nI see you have the first edition of \"A Study in Scarlet.\" And I know you have other books as well.\nWould you...care to donate them?\nI won't ask that they be given up for free, so I insist.",
 ,1,"value":,900500,"valueList":,
 ,2,"Conversation 15","That one truly loves the library.",
-,2,"value":,1129,"valueList":,400200,401500,402800,600700,1001100,2800200
+,2,"value":,1129,"valueList":,400200,401500,402800,600700,901600,1001100,2800200
 ,1,"Conversation 16","Nursery Rhyme... Yes, you must be her, from the Western nation!\nAll that you are...body, soul, and mind, are all made up of words...\nAh...that is so unbelievable...",
 ,1,"value":,500400,"valueList":,
 ,1,"Conversation 17","Lord Caesar, would you care to write about another one of your military exploits? How about it?",
@@ -4367,6 +4369,8 @@
 ,1,"value":,202300,"valueList":,
 ,1,"Conversation 14","Hey there, Professor. I hear Chaldea had an administrative advisor.\nThat means I can hire one too, right?\nYou'd be my first choice. Why don't we sit down and have a talk?",
 ,1,"value":,202300,"valueList":,
+,1,"Conversation 22","Lostbelt Kukulcan.\nIt's ironic that someone imitating our myth is truer than the god himself.\nI can change my personality at will, you see.\nNo one in Quetzalcoatl's knows how to use their brains, but they still take things too seriously.",
+,1,"value":,2501100,"valueList":,
 ,,"Conversation 1","There's a war on. Let's go.",
 ,,"Conversation 2","Fight with valor. Savor the pleasure. Die savagely.",
 ,,"Conversation 3","Master?\nI don't care. If you aren't a warrior, I'll just kill you.",
@@ -4378,6 +4382,8 @@
 ,1,"value":,604200,"valueList":,
 ,1,"Conversation 20","A solar eclipse...\nA shadow which seals the sun and brings out the night.\nLike a hazy mirror, basically. Whether you're light or dark, it seems we have a connection, Beast.\nAre you sure you wouldn't like to be a jaguar's ears instead?",
 ,1,"value":,2500900,"valueList":,
+,1,"Conversation 22","The fifth sun.\nThis was supposed to be our job, but you're the god of that Lostbelt. I won't meddle.\n...You did a splendid job.\nEven if it was only a fantasy, I recognize the time spent in that golden sea of trees.",
+,1,"value":,2501100,"valueList":,
 ,,"Conversation 1","There's a war on. Let's go.",
 ,,"Conversation 2","Fight with valor. Savor the pleasure. Die savagely.",
 ,,"Conversation 3","Master?\nI don't care. If you aren't a warrior, I'll just kill you.",
@@ -4389,6 +4395,8 @@
 ,1,"value":,604200,"valueList":,
 ,1,"Conversation 20","A solar eclipse...\nA shadow which seals the sun and brings out the night.\nLike a hazy mirror, basically. Whether you're light or dark, it seems we have a connection, Beast.\nAre you sure you wouldn't like to be a jaguar's ears instead?",
 ,1,"value":,2500900,"valueList":,
+,1,"Conversation 22","The fifth sun.\nThis was supposed to be our job, but you're the god of that Lostbelt. I won't meddle.\n...You did a splendid job.\nEven if it was only a fantasy, I recognize the time spent in that golden sea of trees.",
+,1,"value":,2501100,"valueList":,
 ,"id":,700100,"collectionNo":,47,"name":,"Heracles","originalName":,"Heracles","ruby":,"Heracles","battleName":,"Heracles","originalBattleName":,"Heracles","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","Grraauuuughhh!",
 ,,"Conversation 3","Urrrrrgh...",
@@ -4718,7 +4726,7 @@
 ,2,"Conversation 8","...Oh. So you're a king.",
 ,2,"value":,1155,"valueList":,100800,101300,101400,101900,102900,105200,200200,200600,201800,203100,300300,300900,301000,400200,401200,401500,402800,403800,403900,404700,501800,700700,700800,701000,701100,701500,703200,900600,2800100
 ,2,"Conversation 9","Oh, I see!\nI sense something from you that reminds me of Jokanaan! This is wonderful.\nIt's very, very, absolutely, positively, wonderful!\nOh my...what should I do? What should I do!? I might fall in love with you!",
-,2,"value":,1156,"valueList":,203200,400600,401900,900100,900200,900400
+,2,"value":,1156,"valueList":,203200,400600,401900,900100,900200,900400,901600
 ,"id":,703500,"collectionNo":,251,"name":,"Mori Nagayoshi","originalName":,"Mori Nagayoshi","ruby":,"Mori Nagayoshi","battleName":,"Mori Nagayoshi","originalBattleName":,"Mori Nagayoshi","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,3,"cost":,7,"lvMax":,70,"extraAssets":,
 ,,"Conversation 1","...I smell blood.\nI'm gonna get a lot of points from this!\nLet's go, Master!\nLet's kill 'em one at a time to get a high score!",
 ,,"Conversation 2","Master's my feudal lord. And devoting one's entire body and soul to a lord is what being a warrior's all about.\nAnd don't fret. I hate traitors.\nKilling their own Masters is an absolute disgrace as Servants, don'tcha think!?",
@@ -4853,7 +4861,7 @@
 ,1,"Conversation 10","Artemis often stares at my face. I do not feel uncomfortable from it, but perhaps she has something against my sculpting...I guess that's not it either.\nIt's quite the mystery.",
 ,1,"value":,200900,"valueList":,
 ,2,"Conversation 11","The people from the nation called Rome are quite uncanny...\nI somehow feel pleasant and warm seeing them.\nIt's like the same feeling I had when I was watching the children running around in the castle back in the day.",
-,2,"value":,1236,"valueList":,100500,100600,101300,105200,301000,304200,404700,503200,701000
+,2,"value":,1236,"valueList":,100500,100600,101300,105200,301000,304200,404700,503200,701000,901600
 ,"id":,704000,"collectionNo":,309,"name":,"Morgan","originalName":,"Morgan","ruby":,"Morgan","battleName":,"Morgan","originalBattleName":,"Morgan","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,,"Conversation 1","The battlefield? Very well.\nBring me my cursed spear, Master.",
 ,,"Conversation 2","As your Servant, I will lend an ear to your words.\nI will tolerate no other sounds.",
@@ -4896,7 +4904,7 @@
 ,2,"Conversation 12","Hey! It's you, Kamacho! If you're bored, let's go swim...whoa...you're a different size than usual.\nGuess I have to carry you in my arms...\nEh? That's the last thing you want me to do? And you're wondering why I'm trying to pick you up in the first place?\nCuz I know for sure you'll run away unless I grab you. Totally certain.\nOh hey, Kiichi! Would you loan me your hammer?",
 ,2,"value":,1256,"valueList":,603700,1101100
 ,"id":,704200,"collectionNo":,345,"name":,"Kriemhild","originalName":,"Kriemhild","ruby":,"Kriemhild","battleName":,"Kriemhild","originalBattleName":,"Kriemhild","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
-,,"Conversation 1","You're not going to head out?",
+,,"Conversation 1","Aren't you leaving? Don't you know soldiers value swiftness?",
 ,,"Conversation 2","Master and Servant relationship? We're more like accomplices. I think it is debatable whether you're the accessory and I'm the primary culprit, though.",
 ,,"Conversation 3","My relationship with Master... Yes, it's going well. I think it's good. It's good right? Otherwise I wouldn't have been summoned here in the first place.",
 ,1,"Conversation 7","Oh crap.\nWhat is it, Lord Siegfried? What can this wife of yours, who you love not one bit, do for you, you ass? Please don't touch me; your heroism will rub off on me. I'm merely a Berserker. I'm not the kind of person a hero of your stature should be concerned with, so I'm going to TAKE MY LEAVE!",
@@ -5430,6 +5438,27 @@
 ,1,"value":,704400,"valueList":,
 ,1,"Conversation 13","I was thinking about this the whole time, but you are both fleeting and faint, Yamanami. Well, I'm not just talking about your presence...\nBut everything?",
 ,1,"value":,105500,"valueList":,
+,"id":,901600,"collectionNo":,374,"name":,"Pope Johanna","originalName":,"Pope Johanna","ruby":,"Pope Johanna","battleName":,"Johanna","originalBattleName":,"Johanna","classId":,9,"className":,"ruler","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
+,,"Conversation 1","Master, we are ready to head out. It seems everyone has gathered already.",
+,,"Conversation 2","Master and Servant relationship? I'm sorry, but I serve God first and foremost. The moment I forget that, I will lose the right to be Johanna.",
+,,"Conversation 3","My relationship with Master? I believe I've formed a good relationship, if I say so myself.\n...I'm allowed to believe that to be true, right?",
+,2,"Conversation 6","Jeanne d'Arc...the holy maiden of Orleans.\nShe has been treating me very well.\nAnd her banner...is very cool...",
+,2,"value":,1335,"valueList":,900100,1100300
+,1,"Conversation 8","I didn't think Saint Georges...the great Georgios to be here!\nHe's probably even more of a saint than an ordinary human like me.\nHuh? Look at the camera? Say \"cheese\"? O-okay.\nAm I doing it right?",
+,1,"value":,400600,"valueList":,
+,2,"Conversation 9","Saint Martha! I see Chaldea is a wonderful place! I will try to follow your great example and work hard too!",
+,2,"value":,1171,"valueList":,401900,505000,900400
+,,"Conversation 1","Okay, okay, isn't there something you need to do right now?",
+,,"Conversation 2","Master and Servant...\nHmmm. I don't really want to focus on that kind of relationship because I decided you and I are going to be friends. Then again, I wouldn't have a choice if that weren't possible.",
+,,"Conversation 3","My relationship with Master... I'll have Master decide that. I just have to obey what they say.",
+,1,"Conversation 7","Jeanne, you constantly deny calling yourself a holy maiden. I see...and I understand why. I can see that posthumous honor means nothing to you.\nI do admit I am a bit jealous that you were able to live your life through...",
+,1,"value":,900100,"valueList":,
+,1,"Conversation 8","Oh, Georgios! I know, you want a picture!\nCome on, Master. He wants to take a photo! Let's link arms and look excited!\n(Phew) That sure turned out great!",
+,1,"value":,400600,"valueList":,
+,2,"Conversation 9","Saint Martha...your fist is certainly strong as ever!\nHuh? You don't think I'm complimenting you? ...No, I'm not.\nBut I'm honored to share a meal with you!",
+,2,"value":,1171,"valueList":,401900,505000,900400
+,1,"Conversation 10","Ugh. I-I'm sorry. I have an aversion to that guy. No, I do not hate him! There is no hate!\nBut everyone definitely has things they're repulsed by. He definitely takes the top spot for me!\nThat monstrous priest Rasputin...that guy certainly has a rich personality and life to boot! ",
+,1,"value":,1001500,"valueList":,
 ,"id":,1000100,"collectionNo":,164,"name":,"Passionlip","originalName":,"Passionlip","ruby":,"Passionlip","battleName":,"Passionlip","originalBattleName":,"Passionlip","classId":,10,"className":,"alterEgo","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","What a long break you're taking...\nI-I mean, to each their own, and I don't mind staying inside...!",
 ,,"Conversation 2","Servants are to serve their Masters... I'm scared, but I will help you.",
@@ -5829,7 +5858,7 @@
 ,1,"Conversation 4","Oh-ho? There is another who has materialized as an Avenger.\nI despise human nature, he laughs at it...\nI see. People are inexplicable.",
 ,1,"value":,1100100,"valueList":,
 ,2,"Conversation 5","There's another Extra Class here... Interesting.",
-,2,"value":,1005,"valueList":,900100,900200,900400,900500,900600,900700,900800,900900,901000,901100,901200,901300,901400,901500,1000100,1000200,1000300,1000400,1000500,1000700,1000800,1000900,1001000,1001100,1001200,1001300,1001400,1001500,1100300,1100400,1100500,1100600,1100700,1100900,1101000,1101100,1101200,1101400,1101500,2300100,2300200,2300300,2300400,2300500,2500100,2500200,2500300,2500400,2500500,2500600,2500700,2500800,2500900,2501000,2800100,2800200,2800300,2800400,2800500
+,2,"value":,1005,"valueList":,900100,900200,900400,900500,900600,900700,900800,900900,901000,901100,901200,901300,901400,901500,901600,1000100,1000200,1000300,1000400,1000500,1000700,1000800,1000900,1001000,1001100,1001200,1001300,1001400,1001500,1100300,1100400,1100500,1100600,1100700,1100900,1101000,1101100,1101200,1101400,1101500,2300100,2300200,2300300,2300400,2300500,2500100,2500200,2500300,2500400,2500500,2500600,2500700,2500800,2500900,2501000,2501100,2800100,2800200,2800300,2800400,2800500
 ,2,"Conversation 6","There's an artist-type Caster here.\nVery well.\nWaiter, bring him a coffee!",
 ,2,"value":,1006,"valueList":,500500,500700
 ,1,"Conversation 7","Who is he?\nAh, I see...\nNapoleon Bonaparte. So that emperor has finally manifested.\nI won't meet with him right now.\nBut one of these days...",
@@ -6289,6 +6318,8 @@
 ,1,"value":,102800,"valueList":,
 ,1,"Conversation 11","An assassin who straddles the precipice of life and death...\nTo think there was precedent... Human history is not to be underestimated. ",
 ,1,"value":,602500,"valueList":,
+,1,"Conversation 22","She may be extraterrestrial, but we're still Archetypes all the same.\nThat makes us sisters...\nNo, more like sister cities, perhaps.\nOur tastes are completely opposite, though.\nI swear I'd never be so airheaded.",
+,1,"value":,2501100,"valueList":,
 ,,"Conversation 1","Let's head out! Sally forth!\nArcueid the Invincible, into the breach!",
 ,,"Conversation 2","Master-Servant relationship? You trust your partner and let them watch your back, right?\nYeah, I know all about that!\nIt makes me suuuper happy!",
 ,,"Conversation 3","You command from the rear, right?\nI've experienced that before, when I teamed up with mages to kill Dead Apostles.\nDo your best, Master!",
@@ -6640,6 +6671,56 @@
 ,1,"value":,203100,"valueList":,
 ,2,"Conversation 14","Huh. Eyes of wisdom which see through all creation...?\nIt's probably a better symbol than the square and compass we used.\nBut then, don't you think I'm on the right track, wearing glasses? I look intelligent, and unnaturally seeing through the world would make me seem devilish too. They're commonly depicted in religious paintings, but I can't believe they're interpreted as heretical.",
 ,2,"value":,1263,"valueList":,203100,501500,502500
+,"id":,2501100,"collectionNo":,373,"name":,"Kukulcan","originalName":,"Kukulcan","ruby":,"Kukulcan","battleName":,"Kukulcan","originalBattleName":,"Kukulcan","classId":,25,"className":,"foreigner","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
+,,"Conversation 1","Huh, you're bored?\nThen you can keep me company.\nThere's sooo much I want to do!",
+,,"Conversation 2","A Master-Servant relationship...\nHeh heh heh.\nI know it's shameful of me to do this before Quetzalcoatl, but I won't compromise.\nMight is right!\nI love the law of the jungle!",
+,,"Conversation 3","I was responsible for being the sun in Mictlān, so I ignored my own feelings as much as I could.\nBut this is Chaldea.\nI can do everything I couldn't in Mictlān, right?",
+,1,"Conversation 7","Tezcatlipoca? You're asking me?\nI went to check him out because I heard he's Kukulcan's rival in Proper Human History, but he isn't what I expected!\nLike...he's so well-behaved, so intellectual.\nGuess what he said when I told him that.\n\"Of course. Everyone is compared to you, birdbrain.\"\nIsn't that mean!? I'm pretty confident in my memory, you know!",
+,1,"value":,604700,"valueList":,
+,2,"Conversation 8","So that's Quetzalcoatl...\nShe's a free wind who moved from the Mayans to the Aztecs, changed her name, and became really popular...and now she's totally into Mexican culture since becoming a Servant!\nOh no, I relate to her so hard, it's making me dizzy! Please let me call you my big sister!\nHuh? I'm the big sister?\nNo way...",
+,2,"value":,1124,"valueList":,401800,900700
+,1,"Conversation 10","The soul of a city.\nWe're from the same place, so I'd like to be friends with her.\nBut she seems to have it out for me.",
+,1,"value":,2800500,"valueList":,
+,1,"Conversation 11","A sturdy body, sharp eyes, and an utterly noble soul!\nI've wanted to meet you! You must be Orion!\nI've been a huge fan ever since I heard your story with Artemis! Please go a round with me!\nHuh? You're not? You're Tametomo?\nThen who's Orion?\nI'm better off not knowing?",
+,1,"value":,204600,"valueList":,
+,1,"Conversation 12","Artemis is my shopping pal!\nI owe her for teaching me that even gods can enjoy shopping, and she's an endless source of romantic gossip!\nBut she didn't bring the famous Orion with her.\nThere is a weird bear, though.",
+,1,"value":,200900,"valueList":,
+,1,"Conversation 13","I had a nice chat with Jaguar Warrior today!\nShe's friendly, spirited, considerate, and incomprehensible! We really get along!\nHuh? She's a Divided Spirit of Tezcatlipoca?\nOh, you. I'm not gonna fall for that, even if I am new to Proper Human History.",
+,1,"value":,302800,"valueList":,
+,1,"Conversation 14","Oh, is that princess an Archetype, too?\nI see. So that's what they're like in Proper Human History!\nShe's different from Xquic. Yeah, I get it! I'm sure she's just like me!\nI think we can be great friends!",
+,1,"value":,2300500,"valueList":,
+,,"Conversation 1","Huh, you're bored?\nThen you can keep me company.\nThere's sooo much I want to do!",
+,,"Conversation 2","A Master-Servant relationship...\nHeh heh heh.\nI know it's shameful of me to do this before Quetzalcoatl, but I won't compromise.\nMight is right!\nI love the law of the jungle!",
+,,"Conversation 3","I was responsible for being the sun in Mictlān, so I ignored my own feelings as much as I could.\nBut this is Chaldea.\nI can do everything I couldn't in Mictlān, right?",
+,1,"Conversation 7","Tezcatlipoca? You're asking me?\nI went to check him out because I heard he's Kukulcan's rival in Proper Human History, but he isn't what I expected!\nLike...he's so well-behaved, so intellectual.\nGuess what he said when I told him that.\n\"Of course. Everyone is compared to you, birdbrain.\"\nIsn't that mean!? I'm pretty confident in my memory, you know!",
+,1,"value":,604700,"valueList":,
+,2,"Conversation 8","So that's Quetzalcoatl...\nShe's a free wind who moved from the Mayans to the Aztecs, changed her name, and became really popular...and now she's totally into Mexican culture since becoming a Servant!\nOh no, I relate to her so hard, it's making me dizzy! Please let me call you my big sister!\nHuh? I'm the big sister?\nNo way...",
+,2,"value":,1124,"valueList":,401800,900700
+,1,"Conversation 10","The soul of a city.\nWe're from the same place, so I'd like to be friends with her.\nBut she seems to have it out for me.",
+,1,"value":,2800500,"valueList":,
+,1,"Conversation 11","A sturdy body, sharp eyes, and an utterly noble soul!\nI've wanted to meet you! You must be Orion!\nI've been a huge fan ever since I heard your story with Artemis! Please go a round with me!\nHuh? You're not? You're Tametomo?\nThen who's Orion?\nI'm better off not knowing?",
+,1,"value":,204600,"valueList":,
+,1,"Conversation 12","Artemis is my shopping pal!\nI owe her for teaching me that even gods can enjoy shopping, and she's an endless source of romantic gossip!\nBut she didn't bring the famous Orion with her.\nThere is a weird bear, though.",
+,1,"value":,200900,"valueList":,
+,1,"Conversation 13","I had a nice chat with Jaguar Warrior today!\nShe's friendly, spirited, considerate, and incomprehensible! We really get along!\nHuh? She's a Divided Spirit of Tezcatlipoca?\nOh, you. I'm not gonna fall for that, even if I am new to Proper Human History.",
+,1,"value":,302800,"valueList":,
+,1,"Conversation 14","Oh, is that princess an Archetype, too?\nI see. So that's what they're like in Proper Human History!\nShe's different from Xquic. Yeah, I get it! I'm sure she's just like me!\nI think we can be great friends!",
+,1,"value":,2300500,"valueList":,
+,,"Conversation 1","You're going out?\nThat's nice.",
+,,"Conversation 2","I am a god, so please revere me.\nIf you can't at least do that, then there's not much point staying in this form.",
+,,"Conversation 3","Hey, I've noticed that you don't praise my beauty or fall for my looks much.\nThis form is the latest human model, created during my travels to the sun when you humans acquired intelligence.\nIt's the ultimate organism, boasting ideal power and speed.\nDon't you, well, have anything more to say?",
+,1,"Conversation 7","Tezcatlipoca...\nI could go kill him anytime.\nWe are enemies, you know.\nIt's not like I'm envious of him for being able to do everything I can't.",
+,1,"value":,604700,"valueList":,
+,2,"Conversation 8","Quetzalcoatl...\nThe free wind I've envied and longed to be...\nOne day, I hope I can become a wind who loves the future like her...",
+,2,"value":,1124,"valueList":,401800,900700
+,1,"Conversation 17","Listen to this! I ran into that girl Mélusine earlier, and it was so exciting!\n\"Not bad. I can go all out if it's against you. Let Master know. Good. Let's do that.\"\nThat's what she said! Wow, what a stroke of good luck!\nWatch me, Master! I won't lose in an aerial battle!",
+,1,"value":,304800,"valueList":,
+,2,"Conversation 18","Tamamo-no-Mae...\nI know who she is.\nShe may be hiding her identity, but she's a Divine Spirit descended from the sun, too.\n...Huh? A wifely fox priestess? Tamamo Nine? Are Japan's myths even more complicated than Mayan ones?",
+,2,"value":,1057,"valueList":,302400,500300
+,2,"Conversation 19","There's a Star-Eater here.\nGive me the order, Master.\nSuch an entity should be eradicated before it's too late. It'll bring shame upon the earth.",
+,2,"value":,1203,"valueList":,1000300,2300400
+,2,"Conversation 20","I'm not surprised there are other visitors from beyond...\nActually, there are both inner and outer Foreigners.\nThe threat from the outer ones...is another strange tale Chaldea created, I think.",
+,2,"value":,1332,"valueList":,2500100,2500200,2500400,2500600,2500700,2501000
 ,"id":,2800100,"collectionNo":,316,"name":,"Oberon","originalName":,"Oberon","ruby":,"Oberon","battleName":,"Oberon","originalBattleName":,"Oberon","classId":,28,"className":,"pretender","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,,"Conversation 1","It's time to head out, Master! All right, let's do it!",
 ,,"Conversation 2","I'm the King of the Faeries, you know. Of course I understand the relationship between Master and Servant.\nIt's like donning a mantle of responsibility, right?",
