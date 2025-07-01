@@ -575,7 +575,7 @@
 ,,"Conversation 2","Ah, who's a little cutie? Who's a little cutie? Fufufufu...",
 ,,"Conversation 3","Our magical energy channels getting connected seems bizarre. It feels a bit...disconcerting... \nWell, I guess it's no different than putting a collar around one's neck. Fufu.",
 ,2,"Conversation 7","I sense the presence of a snake.\nAh...a snake deity from a foreign land?\nI must meet them! I'll bring along my tsuchinoko and all!",
-,2,"value":,1217,"valueList":,302700,304600,400100,401800,900700,1001500,1100400,3300100
+,2,"value":,1217,"valueList":,105600,302700,304600,400100,401800,900700,1001500,1100400,3300100
 ,1,"Conversation 8","Oh hey. I just saw a kunoichi.\n...A curse of the orochi? Interesting. That woman looked straight into my eyes without flinching. Interesting indeed...\nI'll take her in as my younger sister.",
 ,1,"value":,602900,"valueList":,
 ,,"Conversation 9","There's an oni around...?\nHm. That conjures up memories. They're all so lovely. Fufufu.",
@@ -589,7 +589,7 @@
 ,,"Conversation 2","You're a Master. And I'm the Servant.\nYeah, yeah, I know that. Don't you worry 'bout a thing!\n...Did that sound modern enough?",
 ,,"Conversation 3","I'm going to try to behave like a proper Servant. I'm serious. I apologize beforehand if anything's weird or off.\nUm, like the fact that I'm going stay 180cm tall whenever I'm around outside of battle...\nLike that, right?",
 ,2,"Conversation 7","Oh hello, snake gods from another land.\nI'm a snake too, so let's be friends!",
-,2,"value":,1217,"valueList":,302700,304600,400100,401800,900700,1001500,1100400,3300100
+,2,"value":,1217,"valueList":,105600,302700,304600,400100,401800,900700,1001500,1100400,3300100
 ,1,"Conversation 8","Hey! You're from the Koga region! You're related to Sabu!\nOh...ohhh... So you're cursed for generations to come, huh? You got it rough.\nWell it's not that I don't not understand your predicament...\nWah! What's wrong!? Why did you suddenly burst into tears? Ack! Now I'm getting hugged!\nI get it...there, there. You must have been scared. There, there.",
 ,1,"value":,602900,"valueList":,
 ,,"Conversation 9","Oni. Slightly ancient oni, huh?\nThey're not modern oni... I see.",
@@ -603,7 +603,7 @@
 ,,"Conversation 2","I am a god. I will allow you to revere me. I will allow you to fear me.",
 ,,"Conversation 3","I am a calamity to all living things. I am misfortune to you all.\nOffer yourself to me, or else...\nResist.",
 ,2,"Conversation 7","Snakes from foreign nations... I see that there are many.\nSome are similar to me, while some are dissimilar.",
-,2,"value":,1217,"valueList":,302700,304600,400100,401800,900700,1001500,1100400,3300100
+,2,"value":,1217,"valueList":,105600,302700,304600,400100,401800,900700,1001500,1100400,3300100
 ,1,"Conversation 8","The descendant of Koga Saburo...\nSo there is someone interesting around here.\nI should take good care of her.",
 ,1,"value":,602900,"valueList":,
 ,,"Conversation 9","An oni. Creatures of the mountain. Brings back memories.",
@@ -860,6 +860,41 @@
 ,2,"value":,1325,"valueList":,901000,901500
 ,,"Conversation 14","I may not look it, but I have trained under both the Ono Itto-ryu and Hokushin Itto-ryu school of sword arts. I was both proud and boastful, thinking myself a formidable warrior in my own dojo. But I soon realized I was ignorant of the real world when I faced Kondo at the Shieikan. And I cannot even compare myself to Okita or Saito.",
 ,,"Conversation 15","Serizawa...\nWithout him, the Shinsengumi, and its foundation, the Mibu Roushigumi, would never have been established. He was definitely our chief...one of them, at least.",
+,"id":,105600,"collectionNo":,384,"name":,"Medusa","originalName":,"Medusa","ruby":,"Medusa","battleName":,"Medusa","originalBattleName":,"Medusa","classId":,1,"className":,"saber","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
+,,"Conversation 1","I stay in the shade because I am a serpent.\nYou, however, may go outside if you wish.",
+,,"Conversation 2","Master and Servant relationship?\nI believe in following whoever I take a liking to and killing those who cross me.\nThat's all.",
+,,"Conversation 3","Master is like an employer.\nWhat else is there to it?",
+,1,"Conversation 7","Odysseus...\nThat man reeks of Athena.\nDon't let him near me.",
+,1,"value":,403800,"valueList":,
+,2,"Conversation 8","I lose track of time whenever I'm with Caenis.\nThere's just not enough time in the world to bad-mouth Poseidon.",
+,2,"value":,1257,"valueList":,304100,404500
+,,"Conversation 9","Ack! Sisters...you are all here...too?\nUm...well, this outfit just happened to be in the modern style...\nI absolutely did not do this to be fashionable and certainly not to stand out from both of you...!",
+,1,"Conversation 10","The Rider me...ah, if you're here, I leave Pegasus in your hands.\nIn exchange, I'll take care of Chrysaor.\n...Is this how you divvy up childcare?",
+,1,"value":,400100,"valueList":,
+,1,"Conversation 11","So that's Pārvatī?\nN-not that I want to be friends with her or anything.\nIt's just that I couldn't take my eyes off her.",
+,1,"value":,303000,"valueList":,
+,1,"Conversation 12","I'm not one to toot my own horn, but that Lancer me is such a good girl.\nI feel like she could be a little more rebellious.",
+,1,"value":,302700,"valueList":,
+,1,"Conversation 13","Talking about love with Suzuka?\n...I've never done such a thing.\nI said, I haven't done that.\nWhat you saw in the cafeteria was... Yes, it was all an illusion!",
+,1,"value":,103000,"valueList":,
+,1,"Conversation 14","That girl's name is Britomart?\nShe keeps inspecting my sword really intensely, saying it looks very similar to the sword her father used to wield...\nBut I have no clue how they're connected.\nAt the very least, it's not of my lineage.",
+,1,"value":,305300,"valueList":,
+,,"Conversation 1","Don't you think you've been too cooped up lately?\nYou're not trying to keep a monster from going outside, are you?\nIf you are my Master, you should be bold enough to take a walk with a monster.",
+,,"Conversation 2","No matter how obedient a monster may be, they will still grow angry if their owner is too messy.\nIf you don't want your throat torn out, you had best straighten up.\nObviously, Chrysaor and I are not that kind of monsters.\n...Yet.",
+,,"Conversation 3","I am just a Servant who obeys her Master's orders.\nBut only to a certain degree. I feel I should be allowed to make requests of Master...don't you think?\nRequests like...stand up straighter.",
+,1,"Conversation 15","Geryon is Chrysaor's child...\nHeracles, you killed him, didn't you?",
+,1,"value":,700100,"valueList":,
+,,"Conversation 16","E-Elder Sister, Eldest Sister...\nNo, you have it wrong. These clothes are not me trying to show off!\nAnd my equipment being reminiscent of Athena was absolutely not my choice...!",
+,1,"Conversation 17","I did not choose to carry this shield.\nThat is why I am not as skilled at wielding it as Leonidas.\nI don't intend to specialize in defense to the extent he does, but it wouldn't be a bad idea to steal his techniques if I get the chance.",
+,1,"value":,300900,"valueList":,
+,1,"Conversation 18","So that's the me who is with Pegasus.\nI admit she is more mature than I...but that doesn't make me inferior.\nI would appreciate your understanding on that point.",
+,1,"value":,400100,"valueList":,
+,1,"Conversation 19","I have heard the stories, and I can only say that you are to blame, since you were the one who came near to Scylla's home, Odysseus.\nYou had it coming.",
+,1,"value":,403800,"valueList":,
+,1,"Conversation 20","Circe.\nDid you do something weird to Scylla?",
+,1,"value":,503300,"valueList":,
+,1,"Conversation 21","I'm sure you already know, but what you carry is extremely dangerous.\nPlease be very careful when handling it, little me.",
+,1,"value":,302700,"valueList":,
 ,"id":,105700,"collectionNo":,379,"name":,"Sétanta","originalName":,"Sétanta","ruby":,"Sétanta","battleName":,"Sétanta","originalBattleName":,"Sétanta","classId":,1,"className":,"saber","type":,"normal","flag":,"ignoreCombineLimitSpecial","flags":,[,"ignoreCombineLimitSpecial",],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
 ,,"Conversation 1","Hey you're going, right? To battle.\nLet's give it our all today too!",
 ,,"Conversation 2","Master is different from a king, right?\nI don't really get it, but yeah, I'll still be protecting you.",
@@ -1041,8 +1076,8 @@
 ,,"Conversation 7","Aren't I pretty? Adorable?\nYes, yes, I know!",
 ,1,"Conversation 8","Hey, Stheno. You're as cute as ever.\nI could look at you all day.",
 ,1,"value":,601000,"valueList":,
-,1,"Conversation 9","Why, if it isn't Medusa. You've gotten even bigger since I last saw you. What are you, some kind of weed? I suggest you stop at around level 60!",
-,1,"value":,400100,"valueList":,
+,2,"Conversation 9","Why, if it isn't Medusa. You've gotten even bigger since I last saw you. What are you, some kind of weed? I suggest you stop at around level 60!",
+,2,"value":,1358,"valueList":,105600,400100
 ,1,"Conversation 10","Oh, I found the rarer form of Medusa! I've decided to...ahem...play with you to amuse myself. Is there anywhere you want to go?",
 ,1,"value":,302700,"valueList":,
 ,1,"Conversation 11","Gorgon? What are you talking about? That's obviously Medusa. Huh? Did you suddenly develop the nerve to talk back to me, Medusa? Don't look away! Look at me when I'm speaking to you, Medusa.",
@@ -1396,8 +1431,8 @@
 ,1,"value":,203500,"valueList":,
 ,1,"Conversation 9","Achilles! You've got a reputation for bagging girls at mixers pretty quickly!\nHuh? You don't remember ever going to mixers in the first place?\nSorry, I was just making it all up. Hahahaha.\nHey, don't get mad! Don't get the chariot out!",
 ,1,"value":,402900,"valueList":,
-,1,"Conversation 10","Oh hey, it's Medusa.\nWhat's that, Master? Why don't I hit on Medusa, you ask?\nI'd rather not do that when two of her sisters are goddesses...",
-,1,"value":,400100,"valueList":,
+,2,"Conversation 10","Oh hey, it's Medusa.\nWhat's that, Master? Why don't I hit on Medusa, you ask?\nI'd rather not do that when two of her sisters are goddesses...",
+,2,"value":,1358,"valueList":,105600,400100
 ,1,"Conversation 11","Help me, Master!\nThat goddess with the scales took one look at me and just suplexed me, saying my sins were too heavy!\nShe's seriously bad news! And she does that suplex move properly, lifting with her hips!",
 ,1,"value":,900800,"valueList":,
 ,1,"Conversation 12","Help me, Master!\nI made a pass at that saint maiden who fights with her fists, and she just dropped right into a boxing stance!\nThen she punched me in the face, and she's deadly accurate!\nAnd she was making those \"sh, sh\" short-burst breathing noises!",
@@ -1612,7 +1647,7 @@
 ,1,"Conversation 13","Asura's king...\nIf Indra wasn't around, I would have struck immediately.",
 ,1,"value":,304600,"valueList":,
 ,2,"Conversation 14","Those who prefer to feast on blood...\nI understand...",
-,2,"value":,1354,"valueList":,101000,201200,204300,300500,302700,304400,400100,403600,502600,601000,601700,603500,1100400
+,2,"value":,1354,"valueList":,101000,105600,201200,204300,300500,302700,304400,400100,403600,502600,601000,601700,603500,1100400
 ,1,"Conversation 15","Ganesha...don't run away...\nLet me pat your head!",
 ,1,"value":,2300300,"valueList":,
 ,1,"Conversation 16","Mata Hari. Are you a dancer too?\nCare to dance...together?",
@@ -1880,8 +1915,8 @@
 ,,"Conversation 3","So this is what it feels like to serve someone. Such a strange feeling.",
 ,2,"Conversation 4","I am happy to be with my sisters. \nThank you, Master. \nI am overjoyed right now.",
 ,2,"value":,1037,"valueList":,201200,601000
-,1,"Conversation 5","It's a strange feeling.\nMy future self is here... We are one and the same, yet different...",
-,1,"value":,400100,"valueList":,
+,2,"Conversation 5","It's a strange feeling.\nMy future self is here... We are one and the same, yet different...",
+,2,"value":,1358,"valueList":,105600,400100
 ,"id":,302800,"collectionNo":,148,"name":,"Jaguar Warrior","originalName":,"Jaguar Warrior","ruby":,"Jaguar Warrior","battleName":,"Jaguar Warrior","originalBattleName":,"Jaguar Warrior","classId":,3,"className":,"lancer","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,3,"cost":,7,"lvMax":,70,"extraAssets":,
 ,,"Conversation 1","I'm feeling bored. Let's go somewhere! \n\"...After that day, the young Master was never seen again, or so they say...\"",
 ,,"Conversation 2","Now that I'm your Servant, you're in good paws! I always land on my feet! ...Since I don't look before I leap.",
@@ -2116,7 +2151,7 @@
 ,2,"Conversation 11","Why you... What do you want?\nI don't know why, but I'm on edge... Who the hell are you? ",
 ,2,"value":,1095,"valueList":,101800,202200
 ,2,"Conversation 12","I don't like gods.\nDoesn't matter if they're old or new...they never do anything good.\nHey Master, can I kill them?",
-,2,"value":,1194,"valueList":,104200,104600,200900,201200,202000,203500,204800,302700,302800,303000,304200,304600,400100,401800,402600,404000,503900,601000,603700,604700,704300,900700,900800,901100,901400,1000800,1001100,1001200,1001600,1100400,1101100,1101500
+,2,"value":,1194,"valueList":,104200,104600,105600,200900,201200,202000,203500,204800,302700,302800,303000,304200,304600,400100,401800,402600,404000,503900,601000,603700,604700,704300,900700,900800,901100,901400,1000800,1001100,1001200,1001600,1100400,1101100,1101500
 ,1,"Conversation 13","...You voluntarily turned yourself female!?\nWhat!?\nIt doesn't matter what form...what matters is being free and feeling liberated?\nHuh.\nI-is that so? Chaldea's sure fulla weirdos.",
 ,1,"value":,500900,"valueList":,
 ,2,"Conversation 14","Hey Mordred!\nLet's go to the simulator!\nNah I have no business with sheltered guys!",
@@ -2148,7 +2183,7 @@
 ,2,"Conversation 11","Why you... What do you want?\nI don't know why, but I'm on edge... Who the hell are you? ",
 ,2,"value":,1095,"valueList":,101800,202200
 ,2,"Conversation 12","I don't like gods.\nDoesn't matter if they're old or new...they never do anything good.\nHey Master, can I kill them?",
-,2,"value":,1194,"valueList":,104200,104600,200900,201200,202000,203500,204800,302700,302800,303000,304200,304600,400100,401800,402600,404000,503900,601000,603700,604700,704300,900700,900800,901100,901400,1000800,1001100,1001200,1001600,1100400,1101100,1101500
+,2,"value":,1194,"valueList":,104200,104600,105600,200900,201200,202000,203500,204800,302700,302800,303000,304200,304600,400100,401800,402600,404000,503900,601000,603700,604700,704300,900700,900800,901100,901400,1000800,1001100,1001200,1001600,1100400,1101100,1101500
 ,1,"Conversation 13","...You voluntarily turned yourself female!?\nWhat!?\nIt doesn't matter what form...what matters is being free and feeling liberated?\nHuh.\nI-is that so? Chaldea's sure fulla weirdos.",
 ,1,"value":,500900,"valueList":,
 ,2,"Conversation 14","Hey Mordred!\nLet's go to the simulator!\nNah I have no business with sheltered guys!",
@@ -2234,7 +2269,7 @@
 ,2,"Conversation 8","What? Even the child of Indra is here?\nI must say...well, this has gotten interesting...",
 ,2,"value":,1220,"valueList":,201500,703300
 ,2,"Conversation 9","A serpent from the west who is both a god and demon...\nHm. I have to say I do feel a certain kinship with her.\nThough I don't turn humans into stone or dissolve them before I devour them.",
-,2,"value":,1145,"valueList":,400100,1100400
+,2,"value":,1145,"valueList":,105600,400100,1100400
 ,2,"Conversation 10","They appear to be confident in their singing.\nIf I have the opportunity, I wouldn't mind hearing them sing.",
 ,2,"value":,1221,"valueList":,100500,100600,101000,300500,404600,502600,503200
 ,2,"Conversation 11","Hrm...those folks over there seem to boast that they can \"ride on dragons if they felt like it.\"\nI like to make humans into playthings, but I do not appreciate the reverse.\nKeep them away from me.",
@@ -2695,7 +2730,7 @@
 ,1,"Conversation 4","I sense a jaguar. \nI'm gonna swing my macana at those bushes over there!",
 ,1,"value":,302800,"valueList":,
 ,2,"Conversation 5","Other gods have come too, it seems.\nI believe in freedom, but too much freedom can be troubling...",
-,2,"value":,1039,"valueList":,104200,200900,201200,202000,203500,204800,302700,302800,303000,304200,304600,400100,402600,403700,404000,503900,601000,603700,604700,900800,901100,901400,1000800,1001100,1001200,1001600,1100400,1100900,1101100,1101500
+,2,"value":,1039,"valueList":,104200,105600,200900,201200,202000,203500,204800,302700,302800,303000,304200,304600,400100,402600,403700,404000,503900,601000,603700,604700,900800,901100,901400,1000800,1001100,1001200,1001600,1100400,1100900,1101100,1101500
 ,2,"Conversation 6","Why, that fox-eared Caster.\nA free spirited older woman with animal characteristics...\nWay too similar! We're way too similar! You're a sun type too, yes!?",
 ,2,"value":,1035,"valueList":,302400,500300
 ,1,"Conversation 7","¡Hola, Ishtar! Do that thing you do, where you throw Venus! \nI wanted a turn at bat, with my trusty macana, of course!",
@@ -2976,9 +3011,9 @@
 ,1,"Conversation 10","You are the child of Apollo, which makes you my grandson.\nNow come, let me hug you! Come!",
 ,1,"value":,504300,"valueList":,
 ,2,"Conversation 11","All children born on the European continent, on the great land of Europa, are my descendants.\nWhat good children you all are!",
-,2,"value":,1180,"valueList":,100100,100200,100300,100500,100600,100700,100800,100900,101000,101300,101400,102000,102200,102600,102900,103100,103300,103400,103500,104100,104300,105000,105400,105700,200300,200800,202300,202600,202800,203200,203400,203900,204300,300200,300300,300500,300900,302600,303600,303900,304700,304800,304900,305100,305300,400200,400400,400600,401100,401300,401500,401700,401900,402200,402400,402500,402700,403600,403900,404200,404600,404700,500200,500400,500500,500700,500800,501000,501100,501400,502300,502600,502700,503200,503600,503800,504800,505000,600500,600700,601200,601300,601400,601700,603800,603900,604800,700200,700400,700500,700700,701000,701400,701500,702000,703100,704000,704200,900400,901300,901600,1001100,1100200,1100300,1100600,2501000,2800100,2800200,2800300,2800400
+,2,"value":,1180,"valueList":,100100,100200,100300,100500,100600,100700,100800,100900,101000,101300,101400,102000,102200,102600,102900,103100,103300,103400,103500,104100,104300,105000,105400,105600,105700,200300,200800,202300,202600,202800,203200,203400,203900,204300,300200,300300,300500,300900,302600,302700,303600,303900,304700,304800,304900,305100,305300,400100,400200,400400,400600,401100,401300,401500,401700,401900,402200,402400,402500,402700,403600,403900,404200,404600,404700,500200,500400,500500,500700,500800,501000,501100,501400,502300,502600,502700,503200,503600,503800,504800,505000,600500,600700,601200,601300,601400,601700,603800,603900,604800,700200,700400,700500,700700,701000,701400,701500,702000,703100,704000,704200,900400,901300,901600,1001100,1100200,1100300,1100600,2501000,2800100,2800200,2800300,2800400
 ,2,"Conversation 12","What about any children born outside Europe, you ask?\nThey are...let's see...they are like my descendants' friends!\nCome, all! You're all sweeties!",
-,2,"value":,1181,"valueList":,101700,101800,102700,102800,103200,103600,103700,103900,104000,104400,104500,104600,104700,104800,104900,105100,105300,105500,200100,201000,201300,201400,201600,202100,202400,202500,202900,203600,203700,204000,204100,204200,204400,204500,204600,204700,300600,301400,301700,302500,302700,302800,303200,303400,303500,303800,304000,304300,304400,305000,400100,400800,400900,401400,402300,402800,403000,403100,403200,403400,403500,404100,404400,404800,404900,501200,501600,501800,501900,502200,502500,502800,503000,503400,503500,504000,504100,504200,504400,504600,504900,505100,505200,600100,600200,600300,600800,600900,601100,601500,601900,602100,602300,602500,602600,602700,602900,603000,603100,603200,603300,603400,603500,603600,604000,604600,604900,700300,700600,700800,701100,701300,701600,702200,702500,702600,702800,702900,703200,703400,703500,703600,703700,704100,704300,704400,900200,900600,901000,901200,901500,1000100,1000200,1000400,1000500,1000700,1000900,1001000,1001300,1001400,1001500,1100100,1100500,1100700,1101000,1101400,2300100,2300200,2500100,2500200,2500700,2800500
+,2,"value":,1181,"valueList":,101700,101800,102700,102800,103200,103600,103700,103900,104000,104400,104500,104600,104700,104800,104900,105100,105300,105500,200100,201000,201300,201400,201600,202100,202400,202500,202900,203600,203700,204000,204100,204200,204400,204500,204600,204700,300600,301400,301700,302500,302800,303200,303400,303500,303800,304000,304300,304400,305000,400800,400900,401400,402300,402800,403000,403100,403200,403400,403500,404100,404400,404800,404900,501200,501600,501800,501900,502200,502500,502800,503000,503400,503500,504000,504100,504200,504400,504600,504900,505100,505200,600100,600200,600300,600800,600900,601100,601500,601900,602100,602300,602500,602600,602700,602900,603000,603100,603200,603300,603400,603500,603600,604000,604600,604900,700300,700600,700800,701100,701300,701600,702200,702500,702600,702800,702900,703200,703400,703500,703600,703700,704100,704300,704400,900200,900600,901000,901200,901500,1000100,1000200,1000400,1000500,1000700,1000900,1001000,1001300,1001400,1001500,1100100,1100500,1100700,1101000,1101400,2300100,2300200,2500100,2500200,2500700,2800500
 ,2,"Conversation 13","Sooo cute!\nOh my, oh my! I cannot believe it!\nThey are all such lovely and adorable Heroic Spirits!\nOoh, I can't help but to squeeze them so tightly!\n...Oh dear. Giving them candy isn't enough!\nI'm going to borrow your kitchen for a bit! I'm going to make them many delicious things!",
 ,2,"value":,1182,"valueList":,103700,104000,105100,105400,105700,201800,202700,203500,204200,302600,302700,303900,304300,401500,403500,403700,404200,500400,500500,502800,504100,600500,603700,702600,702800,704400,901200,1000800,1001200,1100900,1101100,1101400,2500100,2500500,2500700,2800400,3300100
 ,"id":,404100,"collectionNo":,291,"name":,"Murasaki Shikibu (Rider)","originalName":,"Murasaki Shikibu (Rider)","ruby":,"Murasaki Shikibu","battleName":,"Murasaki Shikibu","originalBattleName":,"Murasaki Shikibu","classId":,4,"className":,"rider","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,4,"cost":,12,"lvMax":,80,"extraAssets":,
@@ -3717,7 +3752,7 @@
 ,1,"Conversation 14","Oh, hello Holmes.\nI see you have the first edition of \"A Study in Scarlet.\" And I know you have other books as well.\nWould you...care to donate them?\nI won't ask that they be given up for free, so I insist.",
 ,1,"value":,900500,"valueList":,
 ,2,"Conversation 15","That one truly loves the library.",
-,2,"value":,1129,"valueList":,400200,401500,402800,600700,901600,1001100,2800200
+,2,"value":,1129,"valueList":,105600,400200,401500,402800,600700,901600,1001100,2800200
 ,1,"Conversation 16","Nursery Rhyme... Yes, you must be her, from the Western nation!\nAll that you are...body, soul, and mind, are all made up of words...\nAh...that is so unbelievable...",
 ,1,"value":,500400,"valueList":,
 ,1,"Conversation 17","Lord Caesar, would you care to write about another one of your military exploits? How about it?",
@@ -3739,7 +3774,7 @@
 ,1,"Conversation 9","Oh, if it isn't my old instructor Chiron. It's been awhile.\nDo you have any new medical practices to share? No?\nI see. Then farewell.",
 ,1,"value":,203000,"valueList":,
 ,2,"Conversation 10","What!? Is that...Gorgon!?\nAhem. I'm sorry Master, you must excuse me for a moment. Now where'd I put my syringe?",
-,2,"value":,1145,"valueList":,400100,1100400
+,2,"value":,1145,"valueList":,105600,400100,1100400
 ,1,"Conversation 11","My, my...\nIt's been a while, Aunt Artemis.\nHeh heh...if you want me to stop calling you \"Aunt,\" you know what you need to do.\nYou know, put your power into this medicine once more...",
 ,1,"value":,200900,"valueList":,
 ,2,"Conversation 12","Seeing their faces reminds me of the sea voyage I took back then.\nI just boarded as the ship's doctor, so I didn't have time to think whether it was fun or not...\nWell, at least I was never bored.",
@@ -3997,8 +4032,8 @@
 ,,"Conversation 7","Are you having fun, Master?",
 ,1,"Conversation 8","Euryale.\nYou are very beautiful today, as always.\nReally.\nEven more so than yesterday...\nTeehee. Maybe it's just my imagination. Maybe...",
 ,1,"value":,201200,"valueList":,
-,1,"Conversation 9","Medusa, come over here.\nDon't make me say it again, Medusa.",
-,1,"value":,400100,"valueList":,
+,2,"Conversation 9","Medusa, come over here.\nDon't make me say it again, Medusa.",
+,2,"value":,1358,"valueList":,105600,400100
 ,1,"Conversation 10","My little, little Medusa.\nDon't be so scared.\nNobody is here to tease you.\nCome on now, show me more of that face of yours.",
 ,1,"value":,302700,"valueList":,
 ,1,"Conversation 11","The fact that your True Name is Gorgon isn't your fault?\nHeh. Not my problem.\nYou are Medusa. Rather, you are ALSO Medusa.\nIsn't that right?",
@@ -4288,7 +4323,7 @@
 ,1,"Conversation 7","Oh crap, Musashi!?\nWait a minute. Were you a guy or girl?\nWhatever.\nUh...I mean, I'll have you know that I'm not unemployed! Just a hikikomori!",
 ,1,"value":,101700,"valueList":,
 ,2,"Conversation 8","Hey, are there any other Servants with glasses?\nOh, there's...quite a lot.\nHontrue desu ka...?\nSo who looks better in glasses, them or me?",
-,2,"value":,1077,"valueList":,103300,105500,202300,203200,203400,304900,305100,404100,500500,500900,501900,504200,504400,504800,505100,600700,603500,604200,604700,702400,703800,901400,1001300,2300300,2500800,2500900,2501000,2800500
+,2,"value":,1077,"valueList":,103300,105500,105600,202300,203200,203400,304900,305100,404100,500500,500900,501900,504200,504400,504800,505100,600700,603500,604200,604700,702400,703800,901400,1001300,2300300,2500800,2500900,2501000,2800500
 ,,"Conversation 9","By the way...\nWhen you think about it, doesn't Csejte Pyramid Himeji Castle totally violate building codes by like...a lot?",
 ,"id":,603200,"collectionNo":,199,"name":,"Semiramis","originalName":,"Semiramis","ruby":,"Semiramis","battleName":,"Semiramis","originalBattleName":,"Semiramis","classId":,6,"className":,"assassin","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,5,"cost":,16,"lvMax":,90,"extraAssets":,
 ,,"Conversation 1","Master, I have no patience for time-wasters. You shall head out. Immediately.",
@@ -4795,7 +4830,7 @@
 ,1,"Conversation 8","When Stheno is here...Euryale...looks pleased!",
 ,1,"value":,601000,"valueList":,
 ,2,"Conversation 9","When Medusa is here...Euryale...and Stheno...look pleased!",
-,2,"value":,1038,"valueList":,302700,400100
+,2,"value":,1038,"valueList":,105600,302700,400100
 ,"id":,701000,"collectionNo":,54,"name":,"Caligula","originalName":,"Caligula","ruby":,"Caligula","battleName":,"Caligula","originalBattleName":,"Caligula","classId":,7,"className":,"berserker","type":,"normal","flag":,"normal","flags":,[,,],"rarity":,2,"cost":,4,"lvMax":,65,"extraAssets":,
 ,,"Conversation 1","I will obey... \nYour destiny... Fight...",
 ,,"Conversation 2","You are... Rome... \nYou too...are Rome...",
@@ -6269,7 +6304,7 @@
 ,2,"Conversation 4","What kind of sadist are you!?\nTo bring my older sisters near me...\nHow dare you make me run, swine! Don't forget this, Master!",
 ,2,"value":,1037,"valueList":,201200,601000
 ,2,"Conversation 5","Medusa... a nostalgic name. \nHmph... she seems a little, just a little, lighter than me... Maybe I should eat a bit less...",
-,2,"value":,1038,"valueList":,302700,400100
+,2,"value":,1038,"valueList":,105600,302700,400100
 ,2,"Conversation 6","So that is the snake with wings. \n...She has the potential to be an Avenger, so why is she so cheerful? All in all, she's pretty mysterious...",
 ,2,"value":,1124,"valueList":,401800,900700
 ,1,"Conversation 7","That is Kingu...! Oh, no it's not. \n...I see. \nOh well. It is not something I have experienced. I've already forgotten that fleeting dream.",
